@@ -10,7 +10,7 @@
     <ProjectLevel>
       <Name>manor</Name>
       <FolderPath>$(ProjectDirectory)\Levels\manor</FolderPath>
-      <SpecificFile>manor.prj2</SpecificFile>
+      <SpecificFile>$(LatestFile)</SpecificFile>
     </ProjectLevel>
   </Levels>
 </Project>
