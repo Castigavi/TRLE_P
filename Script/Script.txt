@@ -1,0 +1,64 @@
+﻿;--------------------------------------
+; Platform Definitions
+;--------------------------------------
+
+[PSXExtensions]
+Level= .PSX
+Cut= .CUT
+FMV= .FMV
+
+[PCExtensions]
+Level= .TR4
+Cut= .TR4
+FMV= .BIK
+
+;--------------------------------------
+; Language Filenames
+;--------------------------------------
+
+[Language]
+File= 0, ENGLISH.TXT
+
+;--------------------------------------
+; Options
+;--------------------------------------
+
+[Options]
+Title= ENABLED
+PlayAnyLevel= ENABLED
+LoadSave= ENABLED
+FlyCheat= ENABLED
+WorldFarView=127
+
+;--------------------------------------
+; Title
+;--------------------------------------
+
+[Title]
+LoadCamera= 84246, -533, 78233, 81622, -1514, 78208, 40
+Level= DATA\TITLE, 104
+
+;--------------------------------------
+; Levels
+;--------------------------------------
+
+[Level]
+Name= Croft Manor
+Level= DATA\manor, 001
+LoadCamera= 0, 0, 0, 0, 0, 0, 0
+Horizon= ENABLED
+Fog= 10,10,10
+FogRange=0,20
+ForceVolumetricFX=DISABLED
+LevelFarView=127
+Rain= RAIN_SINGLE_ROOMS
+Customize= CUST_RAIN, FR_CORRECT_SPRINKLERS, -1, 0, -1, -1, -1, -1, -1, -1, -1
+
+;====================================================================
+;                              Animations
+;====================================================================
+; Enables the Slide -> Run animation. Simply press UP when you reach
+; the end of a slope.
+Animation=	246, KEY1_UP, IGNORE, IGNORE, ENV_FRAME_NUMBER, 0, IGNORE, -71
+
+Enemy= SCORPION, -1, NEF_SET_AS_SEMIGOD, -1, -1, -1, -1, -1

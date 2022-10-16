@@ -1,0 +1,58 @@
+Version=1.3.0.7
+Date: 6 April 2017  (22:34:20)  Size=2580480 bytes
+CRS=Disabled
+Last diagnostic mexage:Unable To Open %s
+Last directX error: 
+
+MEMORY CODE MAPPING:
+
+BASE     START    END       ID   PluginName             (PluginVersion - TrngVersion)
+--------------------------------------------------------------------------------------
+10000000 10001000 1014A000   0   Tomb_NextGeneration    (1.3.0.7 - 1.3.0.7)
+--------------------------------------------------------------------------------------
+............... QUICK DIAGNOSTIC LOG ...............
+CRITICAL ERROR: Missing "SCRIPT.DAT" file
+At moment of crash the program was managing:
+....................................................
+CRASH REASON: EXCEPTION_ACCESS_VIOLATION
+	The thread tried to read from or write to a virtual address for which it does not have the appropriate access.
+EXTRA_INFO: VIOLATION ON READ AT OFFSET 0xA
+RECOVERABLE : YES
+CRASH OFFSET: 0x450BA3  (Inside code range of tomb4.exe)
+REGISTERS:
+	EAX=38  
+	EBX=0  
+	ECX=0  
+	EDX=0  
+	ESI=0  
+	EDI=49F18B  
+	EBP=19FF74  
+	EIP=450BA3
+	ESP=19FE98
+WARNING: The crash happened before loading Lara item, or Lara item was not present in the level map
+
+Stack=0x19FE98  pContesto=0x19FA20  pInfoEccezione=0x19F9D0
+PRIMARY_STACK:
+ESP=0x19FE98
+STACK_TRACE:
+	0x48D35B
+	0x48C75D
+	0x48C76D
+	0x4A5A57
+	0x49F26B
+	0x44004E
+<CRASH DURING STACK TRACE>
+END_STACK_TRACE
+
+SECONDARY_STACK:
+ESP=0x90904270
+STACK_TRACE:
+<CRASH DURING STACK TRACE>
+END_STACK_TRACE
+
+OTHER_STACK:
+ESP=0x90904270
+STACK_TRACE:
+<CRASH DURING STACK TRACE>
+END_STACK_TRACE
+
