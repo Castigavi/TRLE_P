@@ -28,7 +28,11 @@ Title= ENABLED
 PlayAnyLevel= ENABLED
 LoadSave= ENABLED
 FlyCheat= ENABLED
+Diagnostic=ENABLED
+DiagnosticType=DGX_CHEATS, -1
+FlyCheat=ENABLED
 WorldFarView=127
+Plugin= 1, Plugin_TokyoSU, IGNORE
 
 ;--------------------------------------
 ; Title
@@ -68,3 +72,6 @@ TriggerGroup= 503, $8000, 55, $1B, $9000+TGROUP_USE_FOUND_ITEM_INDEX, 126, $416,
 TriggerGroup= 504, $9000+TGROUP_NOT+TGROUP_USE_FOUND_ITEM_INDEX, 126, $416, $2000, 374, $1F7
 GlobalTrigger= 503, IGNORE, GT_CONDITION_GROUP, IGNORE, IGNORE, 503, IGNORE
 GlobalTrigger= 504, IGNORE, GT_CONDITION_GROUP, IGNORE, IGNORE, 504, IGNORE
+
+Equipment= PISTOLS_ITEM, 0
+Equipment= BINOCULARS_ITEM, 0
