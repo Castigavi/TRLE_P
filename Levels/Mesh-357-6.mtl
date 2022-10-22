@@ -1,0 +1,13 @@
+# Exported by Tomb Editor 1.5.1.0
+
+newmtl TeOp_0
+    Ka 1.000000 1.000000 1.000000
+    Kd 1.000000 1.000000 1.000000
+    Ni 1.000000
+    Ns 0.000000
+    d 1.000000
+    illum 2
+    map_Ka Mesh-357-6_0.png
+    map_Kd Mesh-357-6_0.png
+
+

@@ -75,3 +75,25 @@ GlobalTrigger= 504, IGNORE, GT_CONDITION_GROUP, IGNORE, IGNORE, 504, IGNORE
 
 Equipment= PISTOLS_ITEM, 0
 Equipment= BINOCULARS_ITEM, 0
+
+
+TriggerGroup= 1, $2000,129,$0033, $5000,85,$000F ; activate sound 51 in channel 2 once, force animation 0 on animating1
+TriggerGroup= 2, $5000,85,$010F, $2000,80,$00DA, $2000,355,$1403  ; force animation 1 on animating1, force animation 474 on LARA, flash screen once
+TriggerGroup= 3, $2000,129,$0034, $5000,85,$030F ; activate sound 52 in channel 2 once, force animation 3 on animating1
+TriggerGroup= 4, $5000,85,$040F, $2000,120,$0000 ; force animation 4 on animating1
+Organizer= 1, FO_TICK_TIME, -1, 0, 1, 480, 2, 30, 3, 30, 4
+
+TriggerGroup= 5, $5000+TGROUP_SINGLE_SHOT,187,$002D, $2000,168,$0175 ; Play flyby, play sound, disable trigger
+
+TriggerGroup= 6, $2000+TGROUP_SINGLE_SHOT,129,$0009 ; play reboob lara music in channel 2
+TriggerGroup= 7, $2000+TGROUP_SINGLE_SHOT,129,$000A ; play reboob lara music in channel 2
+
+TriggerGroup= 9, $9000,213,$030E, $9000,214,$030E
+TriggerGroup= 10, $2000+TGROUP_SINGLE_SHOT,127,$0002 ; enable organizer 2
+GlobalTrigger= 1, IGNORE, GT_CONDITION_GROUP, IGNORE, 9, 10, IGNORE
+
+TriggerGroup= 11, $2000,129,$000B, $5000,208,$002D
+TriggerGroup= 12, $5000,190,$010F
+TriggerGroup= 13, $5000,215,$010F, $2000,129,$000C
+TriggerGroup= 14, $2000,125,$0001, $5000,207,$002B
+Organizer= 2, FO_TICK_TIME, -1, 0, 11, 60, 12, 8, 13, 0, 14
