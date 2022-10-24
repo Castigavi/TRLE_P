@@ -85,7 +85,7 @@ Equipment= BINOCULARS_ITEM, 0
 
 
 TriggerGroup= 1, $2000,129,$0033, $5000,85,$000F ; activate sound 51 in channel 2 once, force animation 0 on animating1
-TriggerGroup= 2, $5000,85,$010F, $2000,80,$00DA, $2000,355,$1403  ; force animation 1 on animating1, force animation 474 on LARA, flash screen once
+TriggerGroup= 2, $5000,85,$010F, $2000,80,$00DA, $2000,355,$1E00  ; force animation 1 on animating1, force animation 474 on LARA, flash screen once
 TriggerGroup= 3, $2000,129,$0034, $5000,85,$030F ; activate sound 52 in channel 2 once, force animation 3 on animating1
 TriggerGroup= 4, $5000,85,$040F, $2000,120,$0000 ; force animation 4 on animating1
 Organizer= 1, FO_TICK_TIME, -1, 0, 1, 480, 2, 30, 3, 30, 4
@@ -107,7 +107,7 @@ Organizer= 2, FO_TICK_TIME, -1, 0, 11, 60, 12, 8, 13, 0, 14 ; organizer of the a
 
 TriggerGroup= 16, $2000+TGROUP_SINGLE_SHOT,127,$0003 ; enable organizer 3
 TriggerGroup= 8, $5000,216,$002B, $5000,216,$050F, $2000,129,$0008, $5000,217,$002D ; activate animating1, force animation 4, play music 8 on channel 2, enable flyby 217
-TriggerGroup= 15, $5000,216,$040F, $2000,355,$1E03, $2000,70,$1F35 ; hide animating1 and flash screen once
+TriggerGroup= 15, $5000,216,$040F, $2000,355,$1E00, $2000,70,$1F35 ; hide animating1 and flash screen once
 Organizer= 3, FO_TICK_TIME, -1, 0, 8, 180, 15
 
 TriggerGroup= 17, $2000+TGROUP_SINGLE_SHOT,129,$000D ; play music 13 in channel 2
