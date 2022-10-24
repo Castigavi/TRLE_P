@@ -8,3 +8,9 @@ Safir - Young Lara animating
 Golden Dawn - TRC style zombie
 Die Basis - TR3+Gold keys rips
 Dejan - Young Lara and Reboob Lara animatings
+Athos - Ambience
+
+Music and sound effects taken from:
+Tomb Raider games
+Dracula The Last Sanctuary
+Necronomicon

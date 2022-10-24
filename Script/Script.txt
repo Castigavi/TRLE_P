@@ -89,7 +89,7 @@ TriggerGroup= 3, $2000,129,$0034, $5000,85,$030F ; activate sound 52 in channel 
 TriggerGroup= 4, $5000,85,$040F, $2000,120,$0000 ; force animation 4 on animating1
 Organizer= 1, FO_TICK_TIME, -1, 0, 1, 480, 2, 30, 3, 30, 4
 
-TriggerGroup= 5, $5000+TGROUP_SINGLE_SHOT,187,$002D, $2000,355,$1E00, $2000,168,$0175 ; Play flyby, play sound, flash red, disable trigger
+TriggerGroup= 5, $5000+TGROUP_SINGLE_SHOT,187,$002D, $2000,355,$1E00, $2000,129,$0002, $2000,168,$0175 ; Play flyby, play sound, flash red, disable trigger
 
 TriggerGroup= 6, $2000+TGROUP_SINGLE_SHOT,129,$0009 ; play reboob lara music in channel 2
 TriggerGroup= 7, $2000+TGROUP_SINGLE_SHOT,129,$000A ; play reboob lara music in channel 2
