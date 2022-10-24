@@ -25,7 +25,7 @@ File= 0, ENGLISH.TXT
 
 [Options]
 Title= ENABLED
-PlayAnyLevel= ENABLED
+PlayAnyLevel= DISABLED
 LoadSave= ENABLED
 FlyCheat= ENABLED
 Diagnostic=ENABLED
