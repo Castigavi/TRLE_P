@@ -1,0 +1,87 @@
+Version=1.3.0.7
+Date: 6 April 2017  (22:34:20)  Size=2580480 bytes
+CRS=Disabled
+Last diagnostic mexage:Released %s @ %x - RefCnt = %d
+Last directX error: DirectDraw received a pointer that was an invalid DirectDraw object. 
+DIRECTX_STACK:
+ESP=0x19F574
+STACK_TRACE:
+	0x100D3C41
+	0x490D00
+	0x48F8AE
+	0x490D00
+	0x490368
+	0x499ED7
+	0x1013E92B
+	0x101388DA
+	0x10065523
+	0x100C43C2
+	0x48F904
+	0x48C8A0
+	0x49F26B
+	0x44004E
+<CRASH DURING STACK TRACE>
+END_STACK_TRACE
+
+
+MEMORY CODE MAPPING:
+
+BASE     START    END       ID   PluginName             (PluginVersion - TrngVersion)
+--------------------------------------------------------------------------------------
+10000000 10001000 1014A000   0   Tomb_NextGeneration    (1.3.0.7 - 1.3.0.7)
+5B830000 5B831000 5B849A00   1   Plugin_TokyoSU         (5.0.0.0 - 1.3.0.7)
+--------------------------------------------------------------------------------------
+............... QUICK DIAGNOSTIC LOG ...............
+WARNING: missing Header NG in  "TITLE.TR4" level file
+At moment of crash the program was managing:
+....................................................
+CRASH REASON: EXCEPTION_ACCESS_VIOLATION
+	The thread tried to read from or write to a virtual address for which it does not have the appropriate access.
+EXTRA_INFO: VIOLATION ON READ AT OFFSET 0x6A2086C
+RECOVERABLE : YES
+CRASH OFFSET: 0x772AA2B8  (Outside of all tomb4, trng or plugin engines. Probably windows APIs)
+REGISTERS:
+	EAX=58200C0  
+	EBX=16C9  
+	ECX=6A20874  
+	EDX=100000  
+	ESI=CA29C70  
+	EDI=5820000  
+	EBP=CD5FCCC  
+	EIP=772AA2B8
+	ESP=CD5FCA8
+Stack=0xCD5FCA8  pContesto=0xCD5F830  pInfoEccezione=0xCD5F7E0
+PRIMARY_STACK:
+ESP=0xCD5FCA8
+STACK_TRACE:
+	0x49E307
+	0x499FEE
+	0x471F3C
+	0x474AEB
+	0x100D5E8B
+	0x4752E9
+	0x47515A
+	0x49E67C
+<CRASH DURING STACK TRACE>
+END_STACK_TRACE
+
+SECONDARY_STACK:
+ESP=0x19B0E0
+STACK_TRACE:
+	0x44005F
+	0x460020
+	0x460020
+	0x48D323
+	0x48D290
+	0x48D323
+	0x48CC91
+	0x48CACE
+	0x49F26B
+END_STACK_TRACE
+
+OTHER_STACK:
+ESP=0xCEEB154
+STACK_TRACE:
+<CRASH DURING STACK TRACE>
+END_STACK_TRACE
+

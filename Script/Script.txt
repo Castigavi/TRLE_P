@@ -56,15 +56,13 @@ FogRange=15,20
 ForceVolumetricFX=DISABLED
 LevelFarView=127
 Rain= RAIN_SINGLE_ROOMS
+Lightning= ENABLED
+
 Customize= CUST_RAIN, FR_CORRECT_SPRINKLERS, -1, 0, -1, -1, -1, -1, -1, -1, -1
 
-;====================================================================
-;                              Animations
-;====================================================================
-; Enables the Slide -> Run animation. Simply press UP when you reach
-; the end of a slope.
-Animation=	246, KEY1_UP, IGNORE, IGNORE, ENV_FRAME_NUMBER, 0, IGNORE, -71
+Animation=	246, KEY1_UP, IGNORE, IGNORE, ENV_FRAME_NUMBER, 0, IGNORE, -71 ; Animations 
 
+;Enemies
 Enemy= SCORPION, -1, NEF_SET_AS_SEMIGOD, -1, -1, -1, -1, -1
 TriggerGroup= 502, $8000, 55, $1B, $9000+TGROUP_NOT+TGROUP_USE_FOUND_ITEM_INDEX, 126, $515, $9000+TGROUP_NOT+TGROUP_USE_FOUND_ITEM_INDEX, 126, $1315, $9000+TGROUP_NOT+TGROUP_USE_FOUND_ITEM_INDEX, 126, $1415, $2000, 89, $103
 GlobalTrigger= 502, IGNORE, GT_CONDITION_GROUP, IGNORE, IGNORE, 502, IGNORE
@@ -72,7 +70,9 @@ TriggerGroup= 503, $8000, 55, $1B, $9000+TGROUP_USE_FOUND_ITEM_INDEX, 126, $416,
 TriggerGroup= 504, $9000+TGROUP_NOT+TGROUP_USE_FOUND_ITEM_INDEX, 126, $416, $2000, 374, $1F7
 GlobalTrigger= 503, IGNORE, GT_CONDITION_GROUP, IGNORE, IGNORE, 503, IGNORE
 GlobalTrigger= 504, IGNORE, GT_CONDITION_GROUP, IGNORE, IGNORE, 504, IGNORE
+AssignSlot= NEW_SLOT6, MUMMY
 
+; Gameplay
 Equipment= PISTOLS_ITEM, 0
 Equipment= BINOCULARS_ITEM, 0
 
@@ -92,8 +92,16 @@ TriggerGroup= 9, $9000,213,$030E, $9000,214,$030E
 TriggerGroup= 10, $2000+TGROUP_SINGLE_SHOT,127,$0002 ; enable organizer 2
 GlobalTrigger= 1, IGNORE, GT_CONDITION_GROUP, IGNORE, 9, 10, IGNORE
 
-TriggerGroup= 11, $2000,129,$000B, $5000,208,$002D
-TriggerGroup= 12, $5000,190,$010F
-TriggerGroup= 13, $5000,215,$010F, $2000,129,$000C
-TriggerGroup= 14, $2000,125,$0001, $5000,207,$002B
-Organizer= 2, FO_TICK_TIME, -1, 0, 11, 60, 12, 8, 13, 0, 14
+TriggerGroup= 11, $2000,129,$000B, $5000,208,$002D ; enable reboob lara music in channel 2, enable flyby camera
+TriggerGroup= 12, $5000,190,$010F ; enable animating 
+TriggerGroup= 13, $5000,215,$010F, $2000,129,$000C ; enable animating and enable reboob lara music in channel 2
+TriggerGroup= 14, $2000,125,$0001, $5000,207,$002B ; enable flipmap 1, activate puzzle item
+Organizer= 2, FO_TICK_TIME, -1, 0, 11, 60, 12, 8, 13, 0, 14 ; organizer of the above
+
+TriggerGroup= 16, $2000+TGROUP_SINGLE_SHOT,127,$0003 ; enable organizer 3
+TriggerGroup= 8, $5000,216,$002B, $5000,216,$050F, $2000,129,$0008, $5000,217,$002D ; activate animating1, force animation 4, play music 8 on channel 2, enable flyby 217
+TriggerGroup= 15, $5000,216,$040F, $2000,355,$1E03, $2000,70,$1F35 ; hide animating1 and flash screen once
+Organizer= 3, FO_TICK_TIME, -1, 0, 8, 180, 15
+
+TriggerGroup= 17, $2000+TGROUP_SINGLE_SHOT,129,$000D ; play music 13 in channel 2
+TriggerGroup= 18, $2000+TGROUP_SINGLE_SHOT,129,$000E ; play music 18 in channel 2
