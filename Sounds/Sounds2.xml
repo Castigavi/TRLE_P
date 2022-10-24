@@ -2,6 +2,46 @@
 <WadSounds xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SoundInfos>
     <WadSoundInfo>
+      <Id>120</Id>
+      <Name>LOCUSTS_LOOP</Name>
+      <Volume>55</Volume>
+      <RangeInSectors>10</RangeInSectors>
+      <Chance>100</Chance>
+      <PitchFactor>0</PitchFactor>
+      <DisablePanning>false</DisablePanning>
+      <RandomizePitch>true</RandomizePitch>
+      <RandomizeVolume>true</RandomizeVolume>
+      <LoopBehaviour>None</LoopBehaviour>
+      <Samples>
+        <WadSample>
+          <FileName>b1.wav</FileName>
+        </WadSample>
+        <WadSample>
+          <FileName>b2.wav</FileName>
+        </WadSample>
+        <WadSample>
+          <FileName>b3.wav</FileName>
+        </WadSample>
+        <WadSample>
+          <FileName>b4.wav</FileName>
+        </WadSample>
+        <WadSample>
+          <FileName>b5.wav</FileName>
+        </WadSample>
+        <WadSample>
+          <FileName>b6.wav</FileName>
+        </WadSample>
+        <WadSample>
+          <FileName>b7.wav</FileName>
+        </WadSample>
+        <WadSample>
+          <FileName>b8.wav</FileName>
+        </WadSample>
+      </Samples>
+      <Global>false</Global>
+      <Indexed>false</Indexed>
+    </WadSoundInfo>
+    <WadSoundInfo>
       <Id>370</Id>
       <Name>CLOCK_LOOP</Name>
       <Volume>100</Volume>
@@ -84,40 +124,19 @@
       <Indexed>false</Indexed>
     </WadSoundInfo>
     <WadSoundInfo>
-      <Id>120</Id>
-      <Name>LOCUSTS_LOOP</Name>
-      <Volume>55</Volume>
-      <RangeInSectors>10</RangeInSectors>
+      <Id>374</Id>
+      <Name>HEARTBEAT_LOOP</Name>
+      <Volume>100</Volume>
+      <RangeInSectors>8</RangeInSectors>
       <Chance>100</Chance>
       <PitchFactor>0</PitchFactor>
       <DisablePanning>false</DisablePanning>
-      <RandomizePitch>true</RandomizePitch>
-      <RandomizeVolume>true</RandomizeVolume>
-      <LoopBehaviour>None</LoopBehaviour>
+      <RandomizePitch>false</RandomizePitch>
+      <RandomizeVolume>false</RandomizeVolume>
+      <LoopBehaviour>Looped</LoopBehaviour>
       <Samples>
         <WadSample>
-          <FileName>b1.wav</FileName>
-        </WadSample>
-        <WadSample>
-          <FileName>b2.wav</FileName>
-        </WadSample>
-        <WadSample>
-          <FileName>b3.wav</FileName>
-        </WadSample>
-        <WadSample>
-          <FileName>b4.wav</FileName>
-        </WadSample>
-        <WadSample>
-          <FileName>b5.wav</FileName>
-        </WadSample>
-        <WadSample>
-          <FileName>b6.wav</FileName>
-        </WadSample>
-        <WadSample>
-          <FileName>b7.wav</FileName>
-        </WadSample>
-        <WadSample>
-          <FileName>b8.wav</FileName>
+          <FileName>l_heart.wav</FileName>
         </WadSample>
       </Samples>
       <Global>false</Global>
