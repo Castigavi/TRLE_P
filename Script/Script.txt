@@ -33,6 +33,8 @@ DiagnosticType=DGX_CHEATS, -1
 FlyCheat=ENABLED
 WorldFarView=127
 Plugin= 1, Plugin_TokyoSU, IGNORE
+Plugin= 2, Plugin_FLEP, IGNORE
+Plugin= 3, Plugin_ObjectHelper, IGNORE
 
 ;--------------------------------------
 ; Title
@@ -57,6 +59,8 @@ ForceVolumetricFX=DISABLED
 LevelFarView=127
 Rain= RAIN_SINGLE_ROOMS
 
+Customize=			CUST_CAMERA, FCAM_INVISIBLE_LARA_ON_LOOK_CAM ; DISABLE AFTER LEVEL IS FINSIHED!!!!!!!
+
 Customize= CUST_FLARE, -1, IGNORE, 158, 153, 124, IGNORE
 Customize= CUST_TR5_UNDERWATER_COLLISIONS
 Customize= CUST_SET_STILL_COLLISION, COLL_STATICS+COLL_DOORS+COLL_ANIMATINGS, 1020
@@ -77,6 +81,7 @@ TriggerGroup= 504, $9000+TGROUP_NOT+TGROUP_USE_FOUND_ITEM_INDEX, 126, $416, $200
 GlobalTrigger= 503, IGNORE, GT_CONDITION_GROUP, IGNORE, IGNORE, 503, IGNORE
 GlobalTrigger= 504, IGNORE, GT_CONDITION_GROUP, IGNORE, IGNORE, 504, IGNORE
 AssignSlot= NEW_SLOT6, MUMMY
+Customize= CUST_TSU_OBJECTS, TR2_GIANT_SPIDER1, ANIMATING7_MIP, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE
 
 ; Gameplay
 Equipment= PISTOLS_ITEM, 0
@@ -105,9 +110,22 @@ TriggerGroup= 14, $2000,125,$0001, $5000,207,$002B ; enable flipmap 1, activate 
 Organizer= 2, FO_TICK_TIME, -1, 0, 11, 60, 12, 8, 13, 0, 14 ; organizer of the above
 
 TriggerGroup= 16, $2000+TGROUP_SINGLE_SHOT,127,$0003 ; enable organizer 3
-TriggerGroup= 8, $5000,216,$002B, $5000,216,$050F, $2000,129,$0008, $5000,217,$002D ; activate animating1, force animation 4, play music 8 on channel 2, enable flyby 217
+TriggerGroup= 8, $2000,79,$0000, $5000,216,$002B, $5000,216,$050F, $2000,129,$0008, $5000,217,$002D ; move Lara to LARA_START_POS 270 with OCB0 activate animating1, force animation 4, play music 8 on channel 2, enable flyby 217
 TriggerGroup= 15, $5000,216,$040F, $2000,355,$1E00, $2000,70,$1F35 ; hide animating1 and flash screen once
 Organizer= 3, FO_TICK_TIME, -1, 0, 8, 180, 15
 
 TriggerGroup= 17, $2000+TGROUP_SINGLE_SHOT,129,$000D ; play music 13 in channel 2
 TriggerGroup= 18, $2000+TGROUP_SINGLE_SHOT,129,$000E ; play music 18 in channel 2
+
+TriggerGroup= 19, $9000,257,$030E
+TriggerGroup= 20, $2000+TGROUP_SINGLE_SHOT,355,$1E00, $5000,286,$002D ; flash screen once, 
+GlobalTrigger= 2, IGNORE, GT_CONDITION_GROUP, IGNORE, 19, 20, IGNORE ;show the key to Lara's bedroom
+
+TriggerGroup= 21, $8000,253,$0002 ; if Lara has QUEST_ITEM2
+TriggerGroup= 23, $2000+TGROUP_SINGLE_SHOT,127,$0004 ; enable organizer 3
+TriggerGroup= 24, $5000+TGROUP_SINGLE_SHOT,291,$010F, $2000,49,$004D, $2000,48,$014D ; force anim1 on animating10, remove QUEST_ITEM2 and add QUEST_ITEM1
+TriggerGroup= 25, $5000+TGROUP_SINGLE_SHOT,86,$002B, $2000,129,$0034, $2000,68,$0106 ; flash screen, activate enemy, play music 5, play music 6 looped
+Organizer= 4, FO_TICK_TIME, -1, 0, 24, 25, 25
+;GlobalTrigger= 3, IGNORE, GT_CONDITION_GROUP, IGNORE, 21, 22, IGNORE ;show the key to Lara's bedroom
+
+TriggerGroup= 26, $2000+TGROUP_SINGLE_SHOT,129,$0005 ; play music 5 in channel 2

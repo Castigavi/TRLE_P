@@ -428,3 +428,5 @@ THE LAST STRING ENTRY
 [ExtraNG]
 0:
 1: Plugin_TokyoSU
+2: Plugin_FLEP
+3: Plugin_ObjectHelper

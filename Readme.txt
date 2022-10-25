@@ -9,6 +9,10 @@ Golden Dawn - TRC style zombie
 Die Basis - TR3+Gold keys rips
 Dejan - Young Lara and Reboob Lara animatings
 Athos - Ambience
+Morgau - TR4 rips
+Ruu - bunnies
+Trinity - multiple objects
+
 
 Music and sound effects taken from:
 Tomb Raider games
