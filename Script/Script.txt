@@ -122,10 +122,23 @@ TriggerGroup= 20, $2000+TGROUP_SINGLE_SHOT,355,$1E00, $5000,286,$002D ; flash sc
 GlobalTrigger= 2, IGNORE, GT_CONDITION_GROUP, IGNORE, 19, 20, IGNORE ;show the key to Lara's bedroom
 
 TriggerGroup= 21, $8000,253,$0002 ; if Lara has QUEST_ITEM2
-TriggerGroup= 23, $2000+TGROUP_SINGLE_SHOT,127,$0004 ; enable organizer 3
+TriggerGroup= 23, $2000+TGROUP_SINGLE_SHOT,127,$0004 ; enable organizer 4
 TriggerGroup= 24, $5000+TGROUP_SINGLE_SHOT,291,$010F, $2000,49,$004D, $2000,48,$014D ; force anim1 on animating10, remove QUEST_ITEM2 and add QUEST_ITEM1
 TriggerGroup= 25, $5000+TGROUP_SINGLE_SHOT,86,$002B, $2000,129,$0034, $2000,68,$0106 ; flash screen, activate enemy, play music 5, play music 6 looped
 Organizer= 4, FO_TICK_TIME, -1, 0, 24, 25, 25
 ;GlobalTrigger= 3, IGNORE, GT_CONDITION_GROUP, IGNORE, 21, 22, IGNORE ;show the key to Lara's bedroom
 
 TriggerGroup= 26, $2000+TGROUP_SINGLE_SHOT,129,$0005 ; play music 5 in channel 2
+
+TriggerGroup= 27, $2000+TGROUP_SINGLE_SHOT,129,$0010, $5000,367,$002D
+TriggerGroup= 28, $2000+TGROUP_SINGLE_SHOT,129,$0011
+TriggerGroup= 29, $2000+TGROUP_SINGLE_SHOT,129,$0012
+
+TriggerGroup= 30, $8000,178,$0002; If Lara has PUZZLE_ITEM1
+TriggerGroup= 31, $2000+TGROUP_SINGLE_SHOT,127,$0005 ; enable ORGANIZER 5
+TriggerGroup= 32, $2000,375,$0003 ; disable GLOBALTRIGGER 3
+GlobalTrigger= 3, IGNORE, GT_CONDITION_GROUP, IGNORE, 30, 31, 32 ; if lara has puzzle item 1 enable organizer 5
+
+TriggerGroup= 33, $2000+TGROUP_SINGLE_SHOT,129,$0013, $5000,370,$002D; Play music, play flyby
+TriggerGroup= 34, $5000+TGROUP_SINGLE_SHOT,28,$020E, $5000,271,$002B, $5000,283,$010F; Shatter ANIMATING7, trigger ANIMATING7_MIP force animation 1 on ANIMATING8
+Organizer= 5, FO_TICK_TIME, -1, 0, 33, 45, 34

@@ -12,9 +12,10 @@ Athos - Ambience
 Morgau - TR4 rips
 Ruu - bunnies
 Trinity - multiple objects
+Daledrau - fixing my broken english
 
 
-Music and sound effects taken from:
+Assets were also taken from:
 Tomb Raider games
 Dracula The Last Sanctuary
 Necronomicon
