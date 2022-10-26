@@ -35,13 +35,14 @@ WorldFarView=127
 Plugin= 1, Plugin_TokyoSU, IGNORE
 Plugin= 2, Plugin_FLEP, IGNORE
 Plugin= 3, Plugin_ObjectHelper, IGNORE
+Plugin= 4, Plugin_AODfanChocolateFanChronicles, IGNORE
 
 ;--------------------------------------
 ; Title
 ;--------------------------------------
 
 [Title]
-LoadCamera= 84246, -533, 78233, 81622, -1514, 78208, 40
+LoadCamera= 100352,-781,982,100352,-585,2048,1
 Level= DATA\TITLE, 104
 
 ;--------------------------------------
@@ -51,13 +52,13 @@ Level= DATA\TITLE, 104
 [Level]
 Name= Croft Manor
 Level= DATA\manor, 001
-LoadCamera= 0, 0, 0, 0, 0, 0, 0
 Horizon= ENABLED
 Fog= 10,10,10
 FogRange=15,20
 ForceVolumetricFX=DISABLED
 LevelFarView=127
 Rain= RAIN_SINGLE_ROOMS
+LoadCamera=         100352,-781,982,100352,-585,2048,58
 
 Customize=			CUST_CAMERA, FCAM_INVISIBLE_LARA_ON_LOOK_CAM ; DISABLE AFTER LEVEL IS FINSIHED!!!!!!!
 
@@ -69,6 +70,19 @@ Customize= CUST_FIX_WATER_FOG_BUG, ENABLED
 Image= 1, 1, IF_PRELOAD, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE
 Customize= CUST_BACKGROUND, BKGDT_INVENTORY, IGNORE, -1, 1
 Customize= CUST_RAIN, FR_CORRECT_SPRINKLERS, -1, 0, -1, -1, -1, -1, -1, -1, -1
+
+AssignSlot= ANIMATING1_MIP, OBJ_SEARCH_OBJECT1 ; cabinet
+AssignSlot= ANIMATING2_MIP, OBJ_SEARCH_OBJECT2 ; drawer
+AssignSlot= ANIMATING3_MIP, OBJ_SEARCH_OBJECT3 ; shelf
+AssignSlot= ANIMATING4_MIP, OBJ_SEARCH_OBJECT3 ; chest
+Customize= CUST_SEARCH_OBJECT1, 1, ENABLED, 464, 196
+Customize= CUST_SEARCH_OBJECT2, 2, ENABLED, 465, 96
+Customize= CUST_SEARCH_OBJECT3, 3, ENABLED, 466, 170
+Customize= CUST_SEARCH_OBJECT4, 4, ENABLED, 472, 84
+TestPosition= 1, -1, ANIMATING1_MIP, -256, 256, 0, 0, -600, 512, -1820, 1820, -5460, 5460, -1820, 1820
+TestPosition= 2, -1, ANIMATING2_MIP, -256, 256, -128, 128, -204, 160, -1820, 1820, -5460, 5460, -1820, 1820
+TestPosition= 3, -1, ANIMATING3_MIP, -512, 512, -128, 128, -192, 192, -1820, 1820, -5460, 5460, -1820, 1820
+TestPosition= 4, -1, ANIMATING4_MIP, -256, 256, 0, 0, -773, -773, -1820, 1820, -5460, 5460, -1820, 1820
 
 Animation=	246, KEY1_UP, IGNORE, IGNORE, ENV_FRAME_NUMBER, 0, IGNORE, -71 ; Animations 
 
@@ -128,7 +142,7 @@ TriggerGroup= 25, $5000+TGROUP_SINGLE_SHOT,86,$002B, $2000,129,$0034, $2000,68,$
 Organizer= 4, FO_TICK_TIME, -1, 0, 24, 25, 25
 ;GlobalTrigger= 3, IGNORE, GT_CONDITION_GROUP, IGNORE, 21, 22, IGNORE ;show the key to Lara's bedroom
 
-TriggerGroup= 26, $2000+TGROUP_SINGLE_SHOT,129,$0005 ; play music 5 in channel 2
+TriggerGroup= 26, $2000+TGROUP_SINGLE_SHOT,129,$0005, $5000,360,$0329 ; play music 5 in channel 2 and camera 360
 
 TriggerGroup= 27, $2000+TGROUP_SINGLE_SHOT,129,$0010, $5000,367,$002D
 TriggerGroup= 28, $2000+TGROUP_SINGLE_SHOT,129,$0011
@@ -142,3 +156,5 @@ GlobalTrigger= 3, IGNORE, GT_CONDITION_GROUP, IGNORE, 30, 31, 32 ; if lara has p
 TriggerGroup= 33, $2000+TGROUP_SINGLE_SHOT,129,$0013, $5000,370,$002D; Play music, play flyby
 TriggerGroup= 34, $5000+TGROUP_SINGLE_SHOT,28,$020E, $5000,271,$002B, $5000,283,$010F; Shatter ANIMATING7, trigger ANIMATING7_MIP force animation 1 on ANIMATING8
 Organizer= 5, FO_TICK_TIME, -1, 0, 33, 45, 34
+
+TriggerGroup= 35, $2000+TGROUP_SINGLE_SHOT,371,$001A, $2000,371,$001A, $2000,48,$011F, $5000,300,$002B ; activate tg 26, add KEY_ITEM1, trigger DOG

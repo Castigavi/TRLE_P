@@ -1,0 +1,66 @@
+Requirements
+============
+
+This object has no requirements.
+
+Animations
+==========
+
+This object is animated, but no state IDs are generated.
+
+Whenever Lara inspects the object, its animation 1 will be forced to play.
+This animation and the animation that Lara performs whilst inspecting it must have the same length.
+Meanwhile, the object will not have collision, to prevent its collision box from pushing Lara away.
+
+Only one face of the object can be inspected.
+
+Triggers
+========
+
+This object is automatically triggered when the level starts.
+
+The OCB can hold the ID of the TriggerGroup that will be executed whilst Lara is inspecting the object, or zero if there is no TriggerGroup to be executed.
+This TriggerGroup will be executed only once.
+
+Commands
+========
+
+This object must have a slot assigned to it by the following command:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AssignSlot=<MyUsedSlot>,OBJ_SEARCH_OBJECT{1..16}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Where <MyUsedSlot> can be any slot other than LARA, but ANIMATING{1..16} and NEW_SLOT{5..18} are preferred.
+
+Additional options must be set by the command Customize=CUST_SEARCH_OBJECT{1..16}.
+
+The fields of the referenced TestPosition command have the same meaning that they normally have, except these, which should be set to zero:
+
+    Flags, Slot Moveable                          : not used
+    HOrientDiffMax, VOrientDiffMax, ROrientDiffMax: internally set to the values of their counterparts, but without the minus sign (that is, they become positive)
+
+Example
+-------
+
+This TriggerGroup can remove the uzis nearby an object, and add it to the inventory:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+; Set Trigger Type - ACTION 14
+; Exporting: TRIGGER(270:0) for ACTION(4) {Tomb_NextGeneration}
+; <#> : UZI_ITEM                   ID 4      in sector (3,3) of First Room
+; <&> : Enemy. Kill <#>object in (E) way
+; (E) : Remove immediatly (disappear any item)
+; Values to add in script command: $5000, 4, $10E
+
+; Set Trigger Type - FLIPEFFECT 48
+; Exporting: TRIGGER(350:0) for FLIPEFFECT(48) {Tomb_NextGeneration}
+; <#> : Inventory-Item. Increase (+1) in (E)way the number of <&>inventory-item in inventory
+; <&> : UZI_ITEM                        	Slot=351
+; (E) :  Show animation of item (like it was picked up)
+; Values to add in script command: $2000, 48, $15E
+
+TriggerGroup=100,$5000,4,$10E,$2000,48,$15E
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+It is assumed that the index of the uzis is 4.

@@ -1,0 +1,4 @@
+This plugin is a complete rewrite of AODfan's Plugin_Chronicles, with many improvements, corrections and new features.
+It controls up to 16 searchable objects. Click on the button at left to read how to set up them.
+
+Thank you so much to AODfan for generously making the source code available!

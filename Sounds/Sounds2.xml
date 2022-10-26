@@ -146,7 +146,7 @@
       <Id>375</Id>
       <Name>BIGSPIDER_FOOTSTEPS</Name>
       <Volume>50</Volume>
-      <RangeInSectors>10</RangeInSectors>
+      <RangeInSectors>6</RangeInSectors>
       <Chance>100</Chance>
       <PitchFactor>0</PitchFactor>
       <DisablePanning>false</DisablePanning>
@@ -205,8 +205,8 @@
     <WadSoundInfo>
       <Id>378</Id>
       <Name>CRYING_LOOP</Name>
-      <Volume>60</Volume>
-      <RangeInSectors>8</RangeInSectors>
+      <Volume>45</Volume>
+      <RangeInSectors>5</RangeInSectors>
       <Chance>100</Chance>
       <PitchFactor>0</PitchFactor>
       <DisablePanning>false</DisablePanning>
