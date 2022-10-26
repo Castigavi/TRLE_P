@@ -25,7 +25,7 @@ Athos - Ambience, music
 Morgau - TR4 rips
 Ruu - bunnies
 Trinity - multiple objects
-Daledrau - fixing my broken english, Henshingley's voiceovers
+Daledrau - fixing my broken english, Henshingley/Richard's voiceovers
 Michiel - TR2 spiders sound samples
 TokyoSU - TR1+2 enemies plugin
 
