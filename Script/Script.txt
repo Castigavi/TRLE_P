@@ -60,7 +60,14 @@ LevelFarView=127
 Rain= RAIN_SINGLE_ROOMS
 LoadCamera=         100352,-781,982,100352,-585,2048,58
 
-Customize=			CUST_CAMERA, FCAM_INVISIBLE_LARA_ON_LOOK_CAM ; DISABLE AFTER LEVEL IS FINSIHED!!!!!!!
+Puzzle= 1,Foot, $0004,$0400,$8000,$0000,$0000,$0002
+Puzzle= 2,Hand, $0004,$0400,$8000,$0000,$0000,$0002
+Puzzle= 3,Head, $0004,$0400,$8000,$0000,$0000,$0002
+Puzzle= 4,Heart, $0004,$0400,$8000,$0000,$0000,$0002
+Puzzle= 5,Brain, $0004,$0400,$8000,$0000,$0000,$0002
+Puzzle= 6,Bestiary, $0000,$0600,$4000,$d000,$3800,$0002
+
+;Customize=			CUST_CAMERA, FCAM_INVISIBLE_LARA_ON_LOOK_CAM ; DISABLE AFTER LEVEL IS FINSIHED!!!!!!!
 
 Customize= CUST_FLARE, -1, IGNORE, 158, 153, 124, IGNORE
 Customize= CUST_TR5_UNDERWATER_COLLISIONS
@@ -132,12 +139,12 @@ TriggerGroup= 17, $2000+TGROUP_SINGLE_SHOT,129,$000D ; play music 13 in channel 
 TriggerGroup= 18, $2000+TGROUP_SINGLE_SHOT,129,$000E ; play music 18 in channel 2
 
 TriggerGroup= 19, $9000,257,$030E
-TriggerGroup= 20, $2000+TGROUP_SINGLE_SHOT,355,$1E00, $5000,286,$002D ; flash screen once, 
+TriggerGroup= 20, $2000+TGROUP_SINGLE_SHOT,355,$1E00, $5000,286,$002D, $2000,129,$0017 ; flash screen once, 
 GlobalTrigger= 2, IGNORE, GT_CONDITION_GROUP, IGNORE, 19, 20, IGNORE ;show the key to Lara's bedroom
 
 TriggerGroup= 21, $8000,253,$0002 ; if Lara has QUEST_ITEM2
 TriggerGroup= 23, $2000+TGROUP_SINGLE_SHOT,127,$0004 ; enable organizer 4
-TriggerGroup= 24, $5000+TGROUP_SINGLE_SHOT,291,$010F, $2000,49,$004D, $2000,48,$014D ; force anim1 on animating10, remove QUEST_ITEM2 and add QUEST_ITEM1
+TriggerGroup= 24, $5000+TGROUP_SINGLE_SHOT,291,$010F, $2000,49,$004D, $2000,48,$014C ; force anim1 on animating10, remove QUEST_ITEM2 and add QUEST_ITEM1
 TriggerGroup= 45, $5000+TGROUP_SINGLE_SHOT,451,$002D, $5000,256,$011A ; Play Flyby 451, open DOOR 256
 TriggerGroup= 25, $5000+TGROUP_SINGLE_SHOT,86,$002B, $2000,129,$0034, $2000,68,$0116 ; flash screen, activate enemy, play music 5, play music 6 looped
 Organizer= 4, FO_TICK_TIME, -1, 0, 24, 20, 45, 105, 25
@@ -175,3 +182,5 @@ TriggerGroup= 42, $5000+TGROUP_SINGLE_SHOT,112,$002D, $2000,129,$0014 ; Activate
 TriggerGroup= 43, $8000,179,$0002 ; if Lara has PUZZLE_ITEM5
 TriggerGroup= 44, $5000+TGROUP_SINGLE_SHOT,433,$002B ; Activate WRAITH3
 GlobalTrigger= 4, IGNORE, GT_CONDITION_GROUP, IGNORE, 43, 44, -1 ;
+
+TriggerGroup= 46, $2000+TGROUP_SINGLE_SHOT,129,$0018 ; play music 24 in channel 2

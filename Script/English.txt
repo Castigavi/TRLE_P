@@ -1,3 +1,7 @@
+; Automatically generated document using TombIDE 1.5.1
+; Do not add any comments into this document as they are
+; going to be removed next time the file is regenerated.
+
 [Strings]
 Title Load Screen
 Croft Manor
@@ -38,11 +42,6 @@ EMPTY STRING SLOT 35
 EMPTY STRING SLOT 36
 EMPTY STRING SLOT 37
 EMPTY STRING SLOT 38
-
-;--------------------------------------
-; Inventory Strings
-;--------------------------------------
-
 Unlimited %s
 USE
 CHOOSE AMMO
@@ -57,11 +56,6 @@ EXAMINE
 \x14 Select Ammo
 \x14 Select Option
 \x14 Combine
-
-;--------------------------------------
-; Inventory Item Strings
-;--------------------------------------
-
 Uzi
 Pistols
 Shotgun
@@ -100,32 +94,29 @@ Large WaterSkin containing 3 litres
 Large WaterSkin containing 4 litres
 Large WaterSkin containing 5 litres
 Crowbar
-QuestItem1:Amulet Of Horus
-QuestItem2:Breast Plate
+QuestItem1:Iris artifact
+QuestItem2:REMOVETHIS
 QuestItem3:Left Greave
 QuestItem4:Right Greave
 QuestItem5:Left Gauntlet
 QuestItem6:Right Gauntlet
 Mechanical Scarab
 Mechanical Scarab With Key
-Winding Key
-
+Bestiary
 Armoury Key
-The Guards Keys
-Scrap Of Paper
-Stone of Maat
-Stone of Khepri
-Stone of Atum
+Foot
+Hand
+Head
+Heart
+Brain
 Stone of Re
 Northern Shaft Key
 Southern Shaft Key
 Eastern Shaft Key
-
 Black Beetle
 Broken Beetle
 Broken Glasses
 Fire Circle Scroll
-
 Ignition Key
 Music Scroll
 Coin Piece
@@ -137,14 +128,12 @@ The Hand Of Sirius
 Scarab Talisman
 The Golden Serpent
 Golden Skull
-
 Metal Blade
 Wooden Handle
 Silver Key
 Western Shaft Key
 Shovel
 Holy Scripture
-
 Canopic Jar 1
 Canopic Jar 2
 Sun Goddess
@@ -158,7 +147,6 @@ Golden Vraeus
 Guardian Key
 Hypostyle Key
 Temple Key
-
 Nitrous Oxide Feeder
 Valve Pipe
 Nitrous Oxide Cannister
@@ -170,33 +158,22 @@ Weapon Code Key
 Mine Detonator
 Mine Detonator Body
 Mine Position Data
-
 Trident
 Golden Star
 Hook and Pole
 Wall Hook
 Broken Handle
-
 Hathor Effigy
 Ornate Handle
 Portal Guardian
-
 Horseman's Gem
 Pharos Knot
 Pharos Pillar
-
 Token
 Gate Key
-
 The Rules of Senet
-
 Bag of Sand
 Jerrycan
-
-;--------------------------------------
-; Menu Strings
-;--------------------------------------
-
 Yes
 No
 Load Game
@@ -204,13 +181,10 @@ New Game
 Paused
 Select Game To Load
 Select Game To Save
-
 GAME OVER
-
 Save Game
 Exit to Title
 DEMO MODE
-
 Current Location
 Statistics
 Distance Travelled
@@ -221,7 +195,6 @@ Health Packs Used
 Time Taken
 days
 of
-
 Action
 Draw Weapon
 Jump
@@ -231,14 +204,9 @@ Look
 Duck
 Dash
 Inventory
-
 RULES1:To win the game, get all your pieces off the\nboard by landing them on the final ankh\nsquare. On your turn spin the sticks. Your\n throw is the number of white sides showing.
 RULES2:If no white sides show, your throw is a six.\nIf you throw a six or land on an ankh square\nyou get an extra turn. If you land on an\nopponent's piece, it is returned to the start
 PETEPOO:For the serpents to live,\nall must first be stilled.\nprovoke each in turn,\nand the circle will burn\ncomplete.
-
-;--------------------------------------
-; PlayStation Strings
-;--------------------------------------
 
 [PSXStrings]
 BSELECT:\x14 Select
@@ -246,7 +214,6 @@ BCANCEL:\x17 Cancel
 BGOBACK:Back \x17
 BOK:\x14 Ok
 CANCELB:Cancel \x17
-
 MEMCARD:BESLES-02238
 INSERT:Insert a Memory Card\ninto Memory Card slot 1
 CHECKING:Checking Memory Card
@@ -258,9 +225,7 @@ OVERWRITE:Overwrite data on Memory Card ?
 UNFORMATTED:Memory Card is unformatted\nInsert a formatted Memory Card
 NOSPACE:Memory Card has insufficient free blocks\n\nInsert a Memory Card with at least\ntwo free blocks
 NOGAMES:There are no Tomb Raider IV\nsave games on the Memory Card\nin Memory Card slot 1
-
 LOADING
-
 Load OK
 Saved OK
 Format OK
@@ -268,9 +233,7 @@ Load Failed
 Save Failed
 Format Failed
 Empty
-
 Controller Removed
-
 Resume
 Quit
 Game Settings
@@ -286,14 +249,8 @@ Vibration On
 Vibration Off
 Manual Targeting
 Automatic Targeting
-
 PAD:\t\t\t\t\t\t\t\t\n\n\n\n\n
 PAD2:\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n
-
-;-------------------------------------
-; Credit Strings
-;-------------------------------------
-
 Programmers
 Additional Programmers
 AI Programming
@@ -308,7 +265,6 @@ Producer
 QA
 Executive Producers
 Additional Sound FX
-
 TEAM1:Chris Coupe
 TEAM2:Martin Gibbins
 TEAM3:Derek Leigh-Gilchrist
@@ -350,16 +306,10 @@ TEAM38:Adrian Smith
 TEAM39:Clint Nembhard
 TEAM40:Benjamin Twose
 
-;--------------------------------------
-; PC Strings
-;--------------------------------------
-
 [PCStrings]
-
 PC Programmer
 Programmers
 Additional Programming
-
 Resume
 Options
 Empty Slot
@@ -372,11 +322,6 @@ High
 Targeting
 Manual
 Automatic
-
-;-------------------------------------
-; Setup Dialog Strings
-;-------------------------------------
-
 Graphics Adapter
 Output Settings
 Output Resolution
@@ -417,17 +362,15 @@ Install
 Uninstall
 ReadMe
 Demo Mode - Esc To Exit
-
 Select Level
 No FMV
-
 OEM1:\n\n\nCongratulations on reaching the end\nof this special version of the game.\nIf you want to continue Lara's adventure,\nyou need to purchase the full version.\nRemember to keep your save game files,\nto continue from where you are now.\nFor details of transferring your save game\nfiles refer to the readme file,\nthis is accessed via the task bar.
-
 THE LAST STRING ENTRY
 
 [ExtraNG]
-0:
+0: 
 1: Plugin_TokyoSU
 2: Plugin_FLEP
 3: Plugin_ObjectHelper
 4: Plugin_AODfanChocolateFanChronicles
+
