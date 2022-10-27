@@ -138,8 +138,9 @@ GlobalTrigger= 2, IGNORE, GT_CONDITION_GROUP, IGNORE, 19, 20, IGNORE ;show the k
 TriggerGroup= 21, $8000,253,$0002 ; if Lara has QUEST_ITEM2
 TriggerGroup= 23, $2000+TGROUP_SINGLE_SHOT,127,$0004 ; enable organizer 4
 TriggerGroup= 24, $5000+TGROUP_SINGLE_SHOT,291,$010F, $2000,49,$004D, $2000,48,$014D ; force anim1 on animating10, remove QUEST_ITEM2 and add QUEST_ITEM1
-TriggerGroup= 25, $5000+TGROUP_SINGLE_SHOT,86,$002B, $2000,129,$0034, $2000,68,$0106 ; flash screen, activate enemy, play music 5, play music 6 looped
-Organizer= 4, FO_TICK_TIME, -1, 0, 24, 25, 25
+TriggerGroup= 45, $5000+TGROUP_SINGLE_SHOT,451,$002D, $5000,256,$011A ; Play Flyby 451, open DOOR 256
+TriggerGroup= 25, $5000+TGROUP_SINGLE_SHOT,86,$002B, $2000,129,$0034, $2000,68,$0116 ; flash screen, activate enemy, play music 5, play music 6 looped
+Organizer= 4, FO_TICK_TIME, -1, 0, 24, 20, 45, 105, 25
 ;GlobalTrigger= 3, IGNORE, GT_CONDITION_GROUP, IGNORE, 21, 22, IGNORE ;show the key to Lara's bedroom
 
 TriggerGroup= 26, $2000+TGROUP_SINGLE_SHOT,129,$0005, $5000,360,$0329 ; play music 5 in channel 2 and camera 360

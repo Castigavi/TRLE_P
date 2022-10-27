@@ -28,6 +28,7 @@ Trinity - multiple objects
 Daledrau - fixing my broken english, Henshingley/Richard's voiceovers
 Michiel - TR2 spiders sound samples
 TokyoSU - TR1+2 enemies plugin
+Lore - rain idea and texture
 
 Assets were also taken from:
 Tomb Raider games
