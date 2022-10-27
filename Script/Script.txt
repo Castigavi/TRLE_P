@@ -161,3 +161,16 @@ TriggerGroup= 35, $2000+TGROUP_SINGLE_SHOT,371,$001A, $2000,48,$011F, $5000,300,
 TriggerGroup= 36, $2000+TGROUP_SINGLE_SHOT,48,$011C ; add KEY_ITEM1
 TriggerGroup= 37, $2000+TGROUP_SINGLE_SHOT,48,$0147 ; add CROWBAR_ITEM
 TriggerGroup= 38, $2000+TGROUP_SINGLE_SHOT,48,$011E ; add KEY_ITEM3
+
+
+TriggerGroup= 39, $5000+TGROUP_SINGLE_SHOT,407,$002D, $2000,129,$0015 ; Activate Flyby 407, play music 21 in channel 2
+TriggerGroup= 40, $5000+TGROUP_SINGLE_SHOT,406,$010F, $5000,405,$010F ; force animation 1 on ANIMATING4 and ANIMATING5, 
+TriggerGroup= 41, $5000+TGROUP_SINGLE_SHOT,405,$4125, $2000,190,$019C, $2000,160,$019C, $5000,252,$002B ; Meshswap ANIMATING5 with 5_MIP, shatter static 0, activate PUZZLE_ITEM5
+Organizer= 6, FO_TICK_TIME, -1, 0, 39, 110, 40, 60, 41 ; animate ANIMATING5, break its head, show brain
+
+TriggerGroup= 42, $5000+TGROUP_SINGLE_SHOT,112,$002D, $2000,129,$0014 ; Activate Flyby 112, play music 20 in channel 2 
+
+
+TriggerGroup= 43, $8000,179,$0002 ; if Lara has PUZZLE_ITEM5
+TriggerGroup= 44, $5000+TGROUP_SINGLE_SHOT,433,$002B ; Activate WRAITH3
+GlobalTrigger= 4, IGNORE, GT_CONDITION_GROUP, IGNORE, 43, 44, -1 ;

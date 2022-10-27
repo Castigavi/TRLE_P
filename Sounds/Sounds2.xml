@@ -392,5 +392,24 @@
       <Global>false</Global>
       <Indexed>false</Indexed>
     </WadSoundInfo>
+    <WadSoundInfo>
+      <Id>388</Id>
+      <Name>PRIEST_DEATH</Name>
+      <Volume>80</Volume>
+      <RangeInSectors>10</RangeInSectors>
+      <Chance>100</Chance>
+      <PitchFactor>0</PitchFactor>
+      <DisablePanning>false</DisablePanning>
+      <RandomizePitch>false</RandomizePitch>
+      <RandomizeVolume>false</RandomizeVolume>
+      <LoopBehaviour>None</LoopBehaviour>
+      <Samples>
+        <WadSample>
+          <FileName>priest_death.wav</FileName>
+        </WadSample>
+      </Samples>
+      <Global>false</Global>
+      <Indexed>false</Indexed>
+    </WadSoundInfo>
   </SoundInfos>
 </WadSounds>
