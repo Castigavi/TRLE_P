@@ -12,5 +12,10 @@
       <FolderPath>$(ProjectDirectory)\Levels\manor</FolderPath>
       <SpecificFile>$(LatestFile)</SpecificFile>
     </ProjectLevel>
+    <ProjectLevel>
+      <Name>title</Name>
+      <FolderPath>$(ProjectDirectory)\Levels\title</FolderPath>
+      <SpecificFile>$(LatestFile)</SpecificFile>
+    </ProjectLevel>
   </Levels>
 </Project>
