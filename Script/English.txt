@@ -94,7 +94,7 @@ Large WaterSkin containing 3 litres
 Large WaterSkin containing 4 litres
 Large WaterSkin containing 5 litres
 Crowbar
-QuestItem1:Iris artifact
+QuestItem1:Iris Artifact
 QuestItem2:REMOVETHIS
 QuestItem3:Left Greave
 QuestItem4:Right Greave
@@ -102,20 +102,20 @@ QuestItem5:Left Gauntlet
 QuestItem6:Right Gauntlet
 Mechanical Scarab
 Mechanical Scarab With Key
-Bestiary
-Armoury Key
+Winding Key
 Foot
 Hand
 Head
 Heart
 Brain
-Stone of Re
-Northern Shaft Key
-Southern Shaft Key
-Eastern Shaft Key
-Black Beetle
-Broken Beetle
-Broken Glasses
+Attic Key
+Kitchen Key
+Library Key
+Basement Key
+Pool Key
+Bedroom Key
+Playroom Key
+Bestiary
 Fire Circle Scroll
 Ignition Key
 Music Scroll
