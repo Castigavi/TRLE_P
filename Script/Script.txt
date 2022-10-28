@@ -29,7 +29,7 @@ PlayAnyLevel= DISABLED
 LoadSave= ENABLED
 FlyCheat= ENABLED
 Diagnostic=ENABLED
-DiagnosticType=DGX_CHEATS, -1
+DiagnosticType=DGX_CHEATS+DGX_SFX_SOUNDS, -1
 FlyCheat=ENABLED
 WorldFarView=127
 Plugin= 1, Plugin_TokyoSU, IGNORE
@@ -64,7 +64,7 @@ Customize= CUST_SET_SECRET_NUMBER, 3
 
 Puzzle= 1,Foot, $0004,$0300,$8000,$0000,$0000,$0002
 Puzzle= 2,Hand, $0004,$01C0,$8000,$0000,$0000,$0002
-Puzzle= 3,Head, $0004,$0400,$8000,$0000,$0000,$0002
+Puzzle= 3,Head, $0004,$0300,$8000,$0000,$0000,$0002
 Puzzle= 4,Heart, $0004,$0300,$8000,$0000,$0000,$0002
 Puzzle= 5,Brain, $0004,$0400,$8000,$0000,$0000,$0002
 Puzzle= 6,Bestiary, $0000,$0600,$4000,$d000,$3800,$0002
@@ -194,3 +194,4 @@ TriggerGroup= 44, $5000+TGROUP_SINGLE_SHOT,433,$002B ; Activate WRAITH3
 GlobalTrigger= 4, IGNORE, GT_CONDITION_GROUP, IGNORE, 43, 44, -1 ;
 
 TriggerGroup= 46, $2000+TGROUP_SINGLE_SHOT,129,$0018 ; play music 24 in channel 2
+TriggerGroup= 47, $2000+TGROUP_SINGLE_SHOT,129,$001A ; play music 26 in channel 2

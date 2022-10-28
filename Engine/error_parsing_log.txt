@@ -1,0 +1,3 @@
+ERROR DIRECT X: DirectDraw received a pointer that was an invalid DirectDraw object.    CALLED BY: 0x490D00
+ERROR DIRECT X: DirectDraw received a pointer that was an invalid DirectDraw object.    CALLED BY: 0x490D00
+BassError after operation "audio\104.missing": Error Code = 2
