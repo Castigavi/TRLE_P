@@ -59,6 +59,8 @@ ForceVolumetricFX=DISABLED
 LevelFarView=127
 Rain= RAIN_SINGLE_ROOMS
 LoadCamera=         100352,-781,982,100352,-585,2048,58
+UVRotate= -1
+Customize= CUST_SET_SECRET_NUMBER, 3
 
 Puzzle= 1,Foot, $0004,$0300,$8000,$0000,$0000,$0002
 Puzzle= 2,Hand, $0004,$01C0,$8000,$0000,$0000,$0002
@@ -158,7 +160,7 @@ TriggerGroup= 25, $5000+TGROUP_SINGLE_SHOT,86,$002B, $2000,129,$0034, $2000,68,$
 Organizer= 4, FO_TICK_TIME, -1, 0, 24, 20, 45, 105, 25
 ;GlobalTrigger= 3, IGNORE, GT_CONDITION_GROUP, IGNORE, 21, 22, IGNORE ;show the key to Lara's bedroom
 
-TriggerGroup= 26, $2000+TGROUP_SINGLE_SHOT,129,$0005, $5000,360,$0329 ; play music 5 in channel 2 and camera 360
+TriggerGroup= 26, $2000+TGROUP_SINGLE_SHOT,129,$0019, $5000,360,$0329 ; play music 5 in channel 2 and camera 360
 
 TriggerGroup= 27, $2000+TGROUP_SINGLE_SHOT,129,$0010, $5000,367,$002D
 TriggerGroup= 28, $2000+TGROUP_SINGLE_SHOT,129,$0011
