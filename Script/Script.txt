@@ -44,6 +44,8 @@ Plugin= 4, Plugin_AODfanChocolateFanChronicles, IGNORE
 [Title]
 LoadCamera= 100352,-781,982,100352,-585,2048,1
 Level= DATA\TITLE, 104
+WindowTitle= Tomb Raider - The Perils Ahead
+Customize= CUST_LIGHT_OBJECT, AMBER_LIGHT, 64, 0, 0, 64, -1024
 
 ;--------------------------------------
 ; Levels
@@ -61,6 +63,7 @@ Rain= RAIN_SINGLE_ROOMS
 LoadCamera=         100352,-781,982,100352,-585,2048,58
 UVRotate= -1
 Customize= CUST_SET_SECRET_NUMBER, 3
+WindowTitle= Tomb Raider - The Perils Ahead
 
 Puzzle= 1,Foot, $0004,$0300,$8000,$0000,$0000,$0002
 Puzzle= 2,Hand, $0004,$01C0,$8000,$0000,$0000,$0002
@@ -76,6 +79,8 @@ Key= 4, Basement Key, $0000,$0400,$0000,$c000,$0000,$0002
 Key= 5, Pool Key, $0000,$0400,$0000,$c000,$0000,$0002
 Key= 6, Bedroom Key, $0000,$0400,$0000,$c000,$0000,$0002
 Key= 7, Playroom Key, $0000,$0400,$0000,$c000,$0000,$0002
+
+Pickup= 1, Secret, $0004,$0300,$8000,$0000,$0000,$0002
 
 ;Customize=			CUST_CAMERA, FCAM_INVISIBLE_LARA_ON_LOOK_CAM ; DISABLE AFTER LEVEL IS FINSIHED!!!!!!!
 
@@ -113,6 +118,7 @@ GlobalTrigger= 503, IGNORE, GT_CONDITION_GROUP, IGNORE, IGNORE, 503, IGNORE
 GlobalTrigger= 504, IGNORE, GT_CONDITION_GROUP, IGNORE, IGNORE, 504, IGNORE
 AssignSlot= NEW_SLOT6, MUMMY
 Customize= CUST_TSU_OBJECTS, TR2_GIANT_SPIDER1, ANIMATING7_MIP, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE
+Customize= CUST_SAVE_LOCUST, ENABLED
 
 ; Gameplay
 Equipment= PISTOLS_ITEM, 0

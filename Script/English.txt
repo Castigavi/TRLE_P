@@ -5,8 +5,8 @@
 [Strings]
 Title Load Screen
 Croft Manor
-EMPTY STRING SLOT 02
-EMPTY STRING SLOT 03
+Tomb Raider - The Perils Ahead
+Secret
 EMPTY STRING SLOT 04
 EMPTY STRING SLOT 05
 EMPTY STRING SLOT 06
