@@ -20,15 +20,15 @@ GGTuck - TR5 bats
 Masnb - TR3 Croft Manor project
 Golden Dawn - TRC style zombie
 Die Basis - TR3+Gold keys rips
-Dejan - Young Lara and Reboob Lara animatings
+Raider99 - Young Lara and Reboob Lara animatings, betatesting
 Athos - Ambience, music
 Morgau - TR4 rips
 Ruu - bunnies
 Trinity - multiple objects
-Daledrau - fixing my broken english, Henshingley/Richard's voiceovers, custom level name idea
+Daledrau - fixing my broken english, Henshingley/Richard's and Father Patrick voiceovers, custom level name idea, betatesting
 Michiel - TR2 spiders sound samples
 TokyoSU - TR1+2 enemies plugin
-Lore - rain idea and texture
+Lore - rain idea and texture, betatesting
 
 Assets were also taken from:
 Tomb Raider games
