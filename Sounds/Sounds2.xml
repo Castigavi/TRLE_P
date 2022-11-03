@@ -64,7 +64,7 @@
       <Id>371</Id>
       <Name>WINSTON_FART</Name>
       <Volume>100</Volume>
-      <RangeInSectors>3</RangeInSectors>
+      <RangeInSectors>2</RangeInSectors>
       <Chance>100</Chance>
       <PitchFactor>0</PitchFactor>
       <DisablePanning>false</DisablePanning>
@@ -127,7 +127,7 @@
       <Id>374</Id>
       <Name>HEARTBEAT_LOOP</Name>
       <Volume>100</Volume>
-      <RangeInSectors>8</RangeInSectors>
+      <RangeInSectors>3</RangeInSectors>
       <Chance>100</Chance>
       <PitchFactor>0</PitchFactor>
       <DisablePanning>false</DisablePanning>

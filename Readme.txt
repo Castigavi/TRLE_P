@@ -1,5 +1,5 @@
 ######################################################################
-#AUTHORS:
+#AUTHOR:
 ######################################################################
 
 Caesum (pmkkoch)
@@ -21,14 +21,15 @@ Masnb - TR3 Croft Manor project
 Golden Dawn - TRC style zombie
 Die Basis - TR3+Gold keys rips
 Raider99 - Young Lara and Reboob Lara animatings, betatesting
-Athos - Ambience, music
+Athos - Ambience, music, graphic for the trailer
 Morgau - TR4 rips
 Ruu - bunnies
 Trinity - multiple objects
-Daledrau - fixing my broken english, Henshingley/Richard's and Father Patrick voiceovers, custom level name idea, betatesting
+Daledrau - voiceovers, betatesting, fixing my bad english, trailer
 Michiel - TR2 spiders sound samples
 TokyoSU - TR1+2 enemies plugin
 Lore - rain idea and texture, betatesting
+GeckoKid - Improved TR2 knights
 
 Assets were also taken from:
 Tomb Raider games
@@ -36,6 +37,20 @@ Dracula The Last Sanctuary
 Necronomicon
 
 If I forgot to mention anyone, please let me know and I will update threads/level's profile page.
+
+######################################################################
+#HINTS:
+######################################################################
+
+- Werner can use shelves, drawers and cabinets, just like in Tomb Raider Chronicles.
+
+######################################################################
+#KNOWN ISSUES:
+######################################################################
+
+- Sometimes rain on windows moves down rather than up. It's not a bug, it's a feature. If it annoys you though, just reload the game.
+
+- Sometimes the CLOCK sound gets corrupted when BATS are active. This goes away once the bats disappear.
 
 ######################################################################
 #TROUBLESHOOTING:

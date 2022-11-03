@@ -311,8 +311,8 @@
     <WadSoundInfo>
       <Id>145</Id>
       <Name>LARA_SPIKE_DEATH</Name>
-      <Volume>30</Volume>
-      <RangeInSectors>13</RangeInSectors>
+      <Volume>80</Volume>
+      <RangeInSectors>10</RangeInSectors>
       <Chance>100</Chance>
       <PitchFactor>0</PitchFactor>
       <DisablePanning>false</DisablePanning>
@@ -321,7 +321,7 @@
       <LoopBehaviour>None</LoopBehaviour>
       <Samples>
         <WadSample>
-          <FileName>vc_death.wav</FileName>
+          <FileName>vc_spikes.wav</FileName>
         </WadSample>
       </Samples>
       <Global>false</Global>
