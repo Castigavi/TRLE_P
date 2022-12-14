@@ -7,7 +7,7 @@ Title Load Screen
 Croft Manor
 Tomb Raider - The Perils Ahead
 Secret
-EMPTY STRING SLOT 04
+ending
 EMPTY STRING SLOT 05
 EMPTY STRING SLOT 06
 EMPTY STRING SLOT 07

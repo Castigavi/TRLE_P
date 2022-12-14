@@ -25,7 +25,7 @@ File= 0, ENGLISH.TXT
 
 [Options]
 Title= ENABLED
-PlayAnyLevel= DISABLED
+PlayAnyLevel= enabled
 LoadSave= ENABLED
 ;Diagnostic=ENABLED
 ;DiagnosticType=DGX_SFX_SOUNDS, -1
@@ -200,3 +200,43 @@ GlobalTrigger= 4, IGNORE, GT_CONDITION_GROUP, IGNORE, 43, 44, -1 ;
 
 TriggerGroup= 46, $2000+TGROUP_SINGLE_SHOT,129,$0018 ; play music 24 in channel 2
 TriggerGroup= 47, $2000+TGROUP_SINGLE_SHOT,129,$001A ; play music 26 in channel 2
+
+[Level]
+Name= ending
+Level= DATA\ENDING, 53
+LoadCamera=         100352,-781,982,100352,-585,2048,0
+Horizon= ENABLED
+
+TriggerGroup= 1, $2000,127,$0002; enable organizer 2
+TriggerGroup= 2, $5000,1,$012D, $5000,3,$002D ; disable cutscene seq 0 enable seq 1
+;TriggerGroup= 3, $5000,3,$002D; enable cutscene seq 2
+
+Organizer= 1, -1, -1, 10, 1, 14, 2
+
+Organizer=2,FO_TICK_TIME,-1,0, 8054,12, 8053,12, 8052,12, 8051,12, 8050,12, 8049,12, 8048,12, 8047,12, 8046,12,>
+8045,12, 8044,12, 8043,12, 8042,12, 8041,12, 8040, 12,8039, 12,8038, 12,8037, 12,8036, 12,8035, 12,8034, 12,8033,>
+12,8032, 12,8031
+TriggerGroup=8031, $5000,2,$7835 ;120 transparency
+TriggerGroup=8032, $5000,2,$7335 ;115
+TriggerGroup=8033, $5000,2,$6E35 ;110
+TriggerGroup=8034, $5000,2,$6935 ;105
+TriggerGroup=8035, $5000,2,$6435 ;100
+TriggerGroup=8036, $5000,2,$5F35 ;95
+TriggerGroup=8037 ,$5000,2,$5A35 ;90
+TriggerGroup=8038, $5000,2,$5535 ;85
+TriggerGroup=8039, $5000,2,$5035 ;80
+TriggerGroup=8040, $5000,2,$4B35 ;75
+TriggerGroup=8041, $5000,2,$4635 ;70
+TriggerGroup=8042, $5000,2,$4135 ;65
+TriggerGroup=8043, $5000,2,$3C35 ;60
+TriggerGroup=8044, $5000,2,$3735 ;55
+TriggerGroup=8045, $5000,2,$3235 ;50
+TriggerGroup=8046, $5000,2,$2D35 ;45
+TriggerGroup=8047, $5000,2,$2835 ;40
+TriggerGroup=8048, $5000,2,$2335 ;35
+TriggerGroup=8049, $5000,2,$1E35 ;30
+TriggerGroup=8050, $5000,2,$1935 ;25
+TriggerGroup=8051, $5000,2,$1435 ;20
+TriggerGroup=8052, $5000,2,$0F35 ;15
+TriggerGroup=8053, $5000,2,$0A35 ;10
+TriggerGroup=8054, $5000,2,$0535 ;05

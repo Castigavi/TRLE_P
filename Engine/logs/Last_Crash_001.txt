@@ -1,0 +1,61 @@
+Version=1.3.0.7
+Date: 14 December 2022  (21:9:17)  Size=2580480 bytes
+CRS=Disabled
+Last diagnostic mexage:Missing FONT_GRAPHICS in current level
+Last directX error: 
+
+MEMORY CODE MAPPING:
+
+BASE     START    END       ID   PluginName             (PluginVersion - TrngVersion)
+--------------------------------------------------------------------------------------
+10000000 10001000 1014A000   0   Tomb_NextGeneration    (1.3.0.7 - 1.3.0.7)
+52360000 52361000 52366000   1   Plugin_AODfanChocolateFanChronicles (1.0.0.3 - 1.3.0.7)
+50000000 50001000 50006600   2   Plugin_ObjectHelper    (2.0.1.0 - 1.3.0.7)
+78100000 78101000 78119A00   3   Plugin_TokyoSU         (5.0.0.0 - 1.3.0.7)
+--------------------------------------------------------------------------------------
+............... QUICK DIAGNOSTIC LOG ...............
+At moment of crash the program was managing:
+....................................................
+CRASH REASON: EXCEPTION_INT_DIVIDE_BY_ZERO
+	The thread tried to divide an integer value by an integer divisor of zero.
+RECOVERABLE : YES
+CRASH OFFSET: 0x45048F  (Inside code range of tomb4.exe)
+REGISTERS:
+	EAX=0  
+	EBX=0  
+	ECX=1485FEE0  
+	EDX=0  
+	ESI=1835035C  
+	EDI=0  
+	EBP=FF  
+	EIP=45048F
+	ESP=1485FEBC
+Stack=0x1485FEBC  pContesto=0x1485FA44  pInfoEccezione=0x1485F9F4
+PRIMARY_STACK:
+ESP=0x1485FEBC
+STACK_TRACE:
+	0x4504F7
+	0x44416F
+	0x451ECA
+	0x451166
+	0x475155
+	0x49E67C
+<CRASH DURING STACK TRACE>
+END_STACK_TRACE
+
+SECONDARY_STACK:
+ESP=0x19B0E0
+STACK_TRACE:
+	0x460020
+	0x460020
+	0x48D323
+	0x48CC6B
+	0x48CACE
+END_STACK_TRACE
+
+OTHER_STACK:
+ESP=0x13C0B154
+STACK_TRACE:
+<CRASH DURING STACK TRACE>
+END_STACK_TRACE
+

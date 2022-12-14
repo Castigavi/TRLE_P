@@ -17,5 +17,10 @@
       <FolderPath>$(ProjectDirectory)\Levels\title</FolderPath>
       <SpecificFile>$(LatestFile)</SpecificFile>
     </ProjectLevel>
+    <ProjectLevel>
+      <Name>ending</Name>
+      <FolderPath>$(ProjectDirectory)\Levels\ending</FolderPath>
+      <SpecificFile>$(LatestFile)</SpecificFile>
+    </ProjectLevel>
   </Levels>
 </Project>
