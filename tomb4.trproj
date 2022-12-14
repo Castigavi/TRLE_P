@@ -8,13 +8,13 @@
   <LevelsPath>$(ProjectDirectory)\Levels</LevelsPath>
   <Levels>
     <ProjectLevel>
-      <Name>manor</Name>
-      <FolderPath>$(ProjectDirectory)\Levels\manor</FolderPath>
+      <Name>title</Name>
+      <FolderPath>$(ProjectDirectory)\Levels\title</FolderPath>
       <SpecificFile>$(LatestFile)</SpecificFile>
     </ProjectLevel>
     <ProjectLevel>
-      <Name>title</Name>
-      <FolderPath>$(ProjectDirectory)\Levels\title</FolderPath>
+      <Name>manor</Name>
+      <FolderPath>$(ProjectDirectory)\Levels\manor</FolderPath>
       <SpecificFile>$(LatestFile)</SpecificFile>
     </ProjectLevel>
     <ProjectLevel>
