@@ -411,5 +411,24 @@
       <Global>false</Global>
       <Indexed>false</Indexed>
     </WadSoundInfo>
+    <WadSoundInfo>
+      <Id>389</Id>
+      <Name>BUTTON_SWITCH</Name>
+      <Volume>55</Volume>
+      <RangeInSectors>7</RangeInSectors>
+      <Chance>100</Chance>
+      <PitchFactor>40</PitchFactor>
+      <DisablePanning>false</DisablePanning>
+      <RandomizePitch>false</RandomizePitch>
+      <RandomizeVolume>false</RandomizeVolume>
+      <LoopBehaviour>None</LoopBehaviour>
+      <Samples>
+        <WadSample>
+          <FileName>push_swt2.wav</FileName>
+        </WadSample>
+      </Samples>
+      <Global>false</Global>
+      <Indexed>false</Indexed>
+    </WadSoundInfo>
   </SoundInfos>
 </WadSounds>
