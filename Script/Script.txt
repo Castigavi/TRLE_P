@@ -135,7 +135,7 @@ TriggerGroup= 5, $5000+TGROUP_SINGLE_SHOT,187,$002D, $2000,355,$1E00, $2000,129,
 TriggerGroup= 6, $2000+TGROUP_SINGLE_SHOT,129,$0009 ; play reboob lara music in channel 2
 TriggerGroup= 7, $2000+TGROUP_SINGLE_SHOT,129,$000A ; play reboob lara music in channel 2
 
-TriggerGroup= 9, $9000,213,$030E, $9000,214,$030E
+TriggerGroup= 9, $9000,481,$030E, $9000,482,$030E, $9000,483,$030E, $9000,484,$030E
 TriggerGroup= 10, $2000+TGROUP_SINGLE_SHOT,127,$0002 ; enable organizer 2
 GlobalTrigger= 1, IGNORE, GT_CONDITION_GROUP, IGNORE, 9, 10, IGNORE
 
