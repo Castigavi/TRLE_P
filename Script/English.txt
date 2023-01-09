@@ -1,4 +1,4 @@
-; Automatically generated document using TombIDE 1.5.1
+; Automatically generated document using TombIDE 1.6.3
 ; Do not add any comments into this document as they are
 ; going to be removed next time the file is regenerated.
 
@@ -368,9 +368,43 @@ OEM1:\n\n\nCongratulations on reaching the end\nof this special version of the g
 THE LAST STRING ENTRY
 
 [ExtraNG]
-0: 
+0: Reyes???!!!???
 1: Plugin_TokyoSU
 2: Plugin_FLEP
 3: Plugin_ObjectHelper
 4: Plugin_AODfanChocolateFanChronicles
+5: Miss Croft!
+6: Von Croy.
+7: I need you to get something for me.
+8: Go on.
+9: The iris.
+10: No chance old man.
+11: Lara, please...
+12: Watch your back old man. \nI warn you, I'll pull no punches.
+13: If you want the trinket, \ndo what pleases me the most.
+14: Find some body parts and offer them to me.
+15: Heeelp!
+16: Jonah??!??!
+17: HEEEEELLPPPPP!!!
+18: OOOUUUGGH
+19: Unification completed.
+20: I'm coming to get you!
+21: Werner! It's me! Henshingley!
+22: Please, help us... \nour daughter has trapped us!
+23: There must be a way to open these cages.
+24: Please, be quick. We're not alone here...
+25: My cage is still locked.
+26: Look around, \nperhaps something has opened...
+27: Thank you, Werner!
+28: Oh, and one more thing...
+29: Heeeeeeeeeeere's RICHARD!
+30: Thank God you're here, Werner! \nI need your help.
+31: Since Lara visited that island... \nshe's been behaving differently...
+32: I believe the book is responsible.
+33: Perhaps a demonic presence \nwas trapped inside of it.
+34: We must find the book, Werner.
+35: With your help \nwe can exorcise the demon away!
+36: When you find it, \nplace it on the lectern.
+37: Praise the Lord, \nyou've found it!
+38: Now we stand a chance!
 
