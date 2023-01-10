@@ -388,23 +388,25 @@ THE LAST STRING ENTRY
 17: \n\n\n\n\n\n\n\n\n\nHEEEEELLPPPPP!!!
 18: \n\n\n\n\n\n\n\n\nOOOUUUGGH
 19: \n\n\n\n\n\n\n\n\nUnification completed.
-20: I'm coming to get you!
-21: Werner! It's me! Henshingley!
-22: Please, help us... \nour daughter has trapped us!
-23: There must be a way to open these cages.
-24: Please, be quick. We're not alone here...
-25: My cage is still locked.
-26: Look around, \nperhaps something has opened...
-27: Thank you, Werner!
-28: Oh, and one more thing...
-29: Heeeeeeeeeeere's RICHARD!
-30: Thank God you're here, Werner! \nI need your help.
-31: Since Lara visited that island... \nshe's been behaving differently...
-32: I believe the book is responsible.
-33: Perhaps a demonic presence \nwas trapped inside of it.
-34: We must find the book, Werner.
-35: With your help \nwe can exorcise the demon away!
-36: When you find it, \nplace it on the lectern.
-37: Praise the Lord, \nyou've found it!
-38: Now we stand a chance!
+20: \n\n\n\n\n\n\n\n\n\nI'm coming to get you!
+21: \n\n\n\n\n\n\n\n\n\nWerner! It's me! Henshingley!
+22: \n\n\n\n\n\n\n\nPlease, help us... \nour daughter has trapped us!
+23: \n\n\n\n\n\n\n\n\nThere must be a way to open these cages.
+24: \n\n\n\n\n\n\n\n\nPlease, be quick.
+25: \n\n\n\n\n\n\n\n\nMy cage is still locked.
+26: \n\n\n\n\n\n\n\nLook around, \nperhaps something has opened...
+27: \n\n\n\n\n\n\n\n\nThank you, Werner!
+28: \n\n\n\n\n\n\n\n\n\nAnd one more thing...
+29: \n\n\n\n\n\n\n\n\nHeeeeeeeeeeere's RICHARD!
+30: \n\n\n\n\n\n\n\n\nThank God you're here, Werner! \nI need your help.
+31: \n\n\n\n\n\n\n\nSince Lara visited that island... \nshe's been behaving differently...
+32: \n\n\n\n\n\n\n\n\nI believe the book is responsible.
+33: \n\n\n\n\n\n\n\nPerhaps a demonic presence \nwas trapped inside of it.
+34: \n\n\n\n\n\n\n\n\nWe must find the book, Werner.
+35: \n\n\n\n\n\n\n\nWith your help \nwe can exorcise the demon away!
+36: \n\n\n\n\n\n\n\nWhen you find it, \nplace it on the lectern.
+37: \n\n\n\n\n\n\n\n\n\nPraise the Lord, you've found it!
+38: \n\n\n\n\n\n\n\n\nNow we stand a chance!
+39: \n\n\n\n\n\n\n\n\nWe're not alone here...
+40: \n\n\n\n\n\n\n\n\nPlay with me Werner.
 

@@ -154,7 +154,7 @@ TriggerGroup= 8, $2000,79,$0000, $5000,216,$002B, $5000,216,$050F, $2000,129,$00
 TriggerGroup= 15, $5000,216,$040F, $2000,355,$1E00, $2000,70,$1F35 ; hide animating1 and flash screen once
 Organizer= 3, FO_TICK_TIME, -1, 0, 8, 180, 15
 
-TriggerGroup= 17, $2000+TGROUP_SINGLE_SHOT,129,$000D ; play music 13 in channel 2
+TriggerGroup= 17, $2000+TGROUP_SINGLE_SHOT,129,$000D, $2000,127,$03ED ; play music 13 in channel 2 and organizer 1005
 TriggerGroup= 18, $2000+TGROUP_SINGLE_SHOT,129,$000E ; play music 18 in channel 2
 
 TriggerGroup= 19, $9000,257,$030E
@@ -169,14 +169,14 @@ TriggerGroup= 25, $5000+TGROUP_SINGLE_SHOT,86,$002B, $2000,129,$0034, $2000,68,$
 Organizer= 4, FO_TICK_TIME, -1, 0, 24, 20, 45, 105, 25
 ;GlobalTrigger= 3, IGNORE, GT_CONDITION_GROUP, IGNORE, 21, 22, IGNORE ;show the key to Lara's bedroom
 
-TriggerGroup= 26, $2000+TGROUP_SINGLE_SHOT,129,$0019, $5000,360,$0329 ; play music 5 in channel 2 and camera 360
+TriggerGroup= 26, $2000+TGROUP_SINGLE_SHOT,129,$0019, $5000,360,$0329, $2000,127,$03F4 ; play music 5 in channel 2 and camera 360 and organizer 1012
 
-TriggerGroup= 27, $2000+TGROUP_SINGLE_SHOT,129,$0010, $5000,367,$002D
-TriggerGroup= 28, $2000+TGROUP_SINGLE_SHOT,129,$0011
-TriggerGroup= 29, $2000+TGROUP_SINGLE_SHOT,129,$0012
+TriggerGroup= 27, $2000+TGROUP_SINGLE_SHOT,129,$0010, $5000,367,$002D, $2000,127,$03EE
+TriggerGroup= 28, $2000+TGROUP_SINGLE_SHOT,129,$0011, $2000,127,$03EF
+TriggerGroup= 29, $2000+TGROUP_SINGLE_SHOT,129,$0012, $2000,127,$03F0
 
 TriggerGroup= 30, $8000,178,$0002; If Lara has PUZZLE_ITEM1
-TriggerGroup= 31, $2000+TGROUP_SINGLE_SHOT,127,$0005 ; enable ORGANIZER 5
+TriggerGroup= 31, $2000+TGROUP_SINGLE_SHOT,127,$0005, $2000,127,$03F1 ; enable ORGANIZER 5 and ORGANIZER 1009
 TriggerGroup= 32, $2000,375,$0003 ; disable GLOBALTRIGGER 3
 GlobalTrigger= 3, IGNORE, GT_CONDITION_GROUP, IGNORE, 30, 31, 32 ; if lara has puzzle item 1 enable organizer 5
 
@@ -190,12 +190,12 @@ TriggerGroup= 37, $2000+TGROUP_SINGLE_SHOT,48,$0147 ; add CROWBAR_ITEM
 TriggerGroup= 38, $2000+TGROUP_SINGLE_SHOT,48,$011E ; add KEY_ITEM3
 
 
-TriggerGroup= 39, $5000+TGROUP_SINGLE_SHOT,407,$002D, $2000,129,$0015 ; Activate Flyby 407, play music 21 in channel 2
+TriggerGroup= 39, $5000+TGROUP_SINGLE_SHOT,407,$002D, $2000,129,$0015, $2000,127,$03F3 ; Activate Flyby 407, play music 21 in channel 2 and organizer 1011
 TriggerGroup= 40, $5000+TGROUP_SINGLE_SHOT,406,$010F, $5000,405,$010F ; force animation 1 on ANIMATING4 and ANIMATING5, 
 TriggerGroup= 41, $5000+TGROUP_SINGLE_SHOT,405,$4125, $2000,190,$019C, $2000,160,$019C, $5000,252,$002B ; Meshswap ANIMATING5 with 5_MIP, shatter static 0, activate PUZZLE_ITEM5
 Organizer= 6, FO_TICK_TIME, -1, 0, 39, 110, 40, 60, 41 ; animate ANIMATING5, break its head, show brain
 
-TriggerGroup= 42, $5000+TGROUP_SINGLE_SHOT,112,$002D, $2000,129,$0014 ; Activate Flyby 112, play music 20 in channel 2 
+TriggerGroup= 42, $5000+TGROUP_SINGLE_SHOT,112,$002D, $2000,129,$0014, $2000,127,$03F2 ; Activate Flyby 112, play music 20 in channel 2 and organizer 1010
 
 
 TriggerGroup= 43, $8000,179,$0002 ; if Lara has PUZZLE_ITEM5
