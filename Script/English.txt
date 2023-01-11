@@ -409,4 +409,10 @@ THE LAST STRING ENTRY
 38: \n\n\n\n\n\n\n\n\nNow we stand a chance!
 39: \n\n\n\n\n\n\n\n\nWe're not alone here...
 40: \n\n\n\n\n\n\n\n\nPlay with me Werner.
+41: \n\n\n\n\n\n\n\n\n\nThat was delicious.
+42: \n\n\n\n\n\n\n\n\nPlease, come to where I slumber
+43: \n\n\n\n\n\n\n\n\n\nHa! I am not such an old man after all.
+44: \n\n\n\n\n\n\n\n\nYou are romantic you
+45: \n\n\n\n\n\n\n\n\nNoooo!
+46: \n\n\n\n\n\n\n\n\nDon't let me hold you up
 

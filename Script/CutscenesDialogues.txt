@@ -97,3 +97,20 @@ Organizer= 1011, FO_TICK_TIME, -1, 0,1035, 55,1036, 50,1000, 245,999
 ;Play with me Werner (025-playwithme)
 TriggerGroup= 1037, $2000,203,$128
 Organizer= 1012, FO_TICK_TIME, -1, 0,1037, 45,1000
+
+;Delicious (023-slumber)
+TriggerGroup= 1038, $2000,51,$0000, > ;Disable keyboard commands
+					$2000,369,$0001, > ;Set camera bars
+					$2000,203,$129 ;That was delicious
+TriggerGroup= 1039, $2000,67,$112, $2000,203,$12A ;Please come
+Organizer= 1013, FO_TICK_TIME, -1, 0,1038, 40,1039, 60,999, 20,1000 
+
+;Finale (053_ending)
+TriggerGroup= 1040, $2000,51,$0000, > ;Disable keyboard commands
+					$2000,369,$0001, > ;Set camera bars
+					$2000,203,$12B ;I'm not an old man
+TriggerGroup= 1041, $2000,67,$112, $2000,203,$12C ;You are romantic
+;TriggerGroup 1007 - Lara, please
+TriggerGroup= 1042, $2000,67,$112, $2000,203,$12D ;Nooo
+TriggerGroup= 1043, $2000,67,$112, $2000,203,$12E ;Don't let me hold you up
+Organizer= 1014, FO_ENABLED+FO_TICK_TIME, -1, 20,1040, 110,1000, 30,1041, 60,1000, 20,1007, 40,1000, 80,1042, 30,1000, 255,1043, 55,1000, 30,999

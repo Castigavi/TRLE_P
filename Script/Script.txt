@@ -25,7 +25,7 @@ File= 0, ENGLISH.TXT
 
 [Options]
 Title= ENABLED
-;PlayAnyLevel= DISABLED
+;PlayAnyLevel= ENABLED
 LoadSave= ENABLED
 ;Diagnostic=ENABLED
 ;DiagnosticType=DGX_SFX_SOUNDS, -1
@@ -158,7 +158,7 @@ TriggerGroup= 17, $2000+TGROUP_SINGLE_SHOT,129,$000D, $2000,127,$03ED ; play mus
 TriggerGroup= 18, $2000+TGROUP_SINGLE_SHOT,129,$000E ; play music 18 in channel 2
 
 TriggerGroup= 19, $9000,257,$030E
-TriggerGroup= 20, $2000+TGROUP_SINGLE_SHOT,355,$1E00, $5000,286,$002D, $2000,129,$0017 ; flash screen once, 
+TriggerGroup= 20, $2000+TGROUP_SINGLE_SHOT,355,$1E00, $5000,286,$002D, $2000,129,$0017, $2000,127,$03F5 ; flash screen once, organizer 1013
 GlobalTrigger= 2, IGNORE, GT_CONDITION_GROUP, IGNORE, 19, 20, IGNORE ;show the key to Lara's bedroom
 
 TriggerGroup= 21, $8000,253,$0002 ; if Lara has QUEST_ITEM2
@@ -211,7 +211,9 @@ Level= DATA\ENDING, 53
 LoadCamera=         100352,-781,982,100352,-585,2048,0
 Horizon= ENABLED
 
-TriggerGroup= 1, $2000,127,$0002; enable organizer 2
+#INCLUDE "CutscenesDialogues.txt"
+
+TriggerGroup= 1, $2000,127,$0002 ; enable organizer 2
 TriggerGroup= 2, $5000,1,$012D, $5000,3,$002D ; disable cutscene seq 0 enable seq 1
 ;TriggerGroup= 3, $5000,3,$002D; enable cutscene seq 2
 
