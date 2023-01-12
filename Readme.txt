@@ -11,6 +11,7 @@ Caesum (pmkkoch)
 ChocolateFan - FLEP
 Dermahn - FLEP, FixLara Project, plugins
 Lwmte, MontyTRC & TE Team - Tomb Editor
+Lore - rain idea and texture, betatesting, subtitles
 Paolone - TRNG
 
 Rardraider - TR5 wads
@@ -28,7 +29,6 @@ Trinity - multiple objects
 Daledrau - voiceovers, betatesting, fixing my bad english, trailer
 Michiel - TR2 spiders sound samples
 TokyoSU - TR1+2 enemies plugin
-Lore - rain idea and texture, betatesting
 GeckoKid - Improved TR2 knights
 
 Assets were also taken from:

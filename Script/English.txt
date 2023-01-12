@@ -1,4 +1,4 @@
-; Automatically generated document using TombIDE 1.6.3
+; Automatically generated document using TombIDE 1.5.1
 ; Do not add any comments into this document as they are
 ; going to be removed next time the file is regenerated.
 
@@ -368,51 +368,51 @@ OEM1:\n\n\nCongratulations on reaching the end\nof this special version of the g
 THE LAST STRING ENTRY
 
 [ExtraNG]
-0: \n\n\n\n\n\n\n\n\n\nReyes???!!!???
+0: Reyes???!!!???
 1: Plugin_TokyoSU
 2: Plugin_FLEP
 3: Plugin_ObjectHelper
 4: Plugin_AODfanChocolateFanChronicles
-5: \n\n\n\n\n\n\n\n\n\nMiss Croft!
-6: \n\n\n\n\n\n\n\n\nVon Croy.
-7: \n\n\n\n\n\n\n\n\nI need you to get something for me.
-8: \n\n\n\n\n\n\n\n\nGo on.
-9: \n\n\n\n\n\n\n\n\nThe Iris.
-10: \n\n\n\n\n\n\n\n\nNo chance old man.
-11: \n\n\n\n\n\n\n\n\nLara, please...
-12: \n\n\n\n\n\n\n\nWatch your back old man. \nI warn you, I'll pull no punches.
-13: \n\n\n\n\n\n\n\n\nIf you want the trinket, \ndo what pleases me the most.
-14: \n\n\n\n\n\n\n\n\nFind some body parts and offer them to me.
-15: \n\n\n\n\n\n\n\n\n\nHeeelp!
-16: \n\n\n\n\n\n\n\n\n\nJonah??!??!
-17: \n\n\n\n\n\n\n\n\n\nHEEEEELLPPPPP!!!
-18: \n\n\n\n\n\n\n\n\nOOOUUUGGH
-19: \n\n\n\n\n\n\n\n\nUnification completed.
-20: \n\n\n\n\n\n\n\n\n\nI'm coming to get you!
-21: \n\n\n\n\n\n\n\n\n\nWerner! It's me! Henshingley!
-22: \n\n\n\n\n\n\n\nPlease, help us... \nour daughter has trapped us!
-23: \n\n\n\n\n\n\n\n\nThere must be a way to open these cages.
-24: \n\n\n\n\n\n\n\n\nPlease, be quick.
-25: \n\n\n\n\n\n\n\n\nMy cage is still locked.
-26: \n\n\n\n\n\n\n\nLook around, \nperhaps something has opened...
-27: \n\n\n\n\n\n\n\n\nThank you, Werner!
-28: \n\n\n\n\n\n\n\n\n\nAnd one more thing...
-29: \n\n\n\n\n\n\n\n\nHeeeeeeeeeeere's RICHARD!
-30: \n\n\n\n\n\n\n\n\nThank God you're here, Werner! \nI need your help.
-31: \n\n\n\n\n\n\n\nSince Lara visited that island... \nshe's been behaving differently...
-32: \n\n\n\n\n\n\n\n\nI believe the book is responsible.
-33: \n\n\n\n\n\n\n\nPerhaps a demonic presence \nwas trapped inside of it.
-34: \n\n\n\n\n\n\n\n\nWe must find the book, Werner.
-35: \n\n\n\n\n\n\n\nWith your help \nwe can exorcise the demon away!
-36: \n\n\n\n\n\n\n\nWhen you find it, \nplace it on the lectern.
-37: \n\n\n\n\n\n\n\n\n\nPraise the Lord, you've found it!
-38: \n\n\n\n\n\n\n\n\nNow we stand a chance!
-39: \n\n\n\n\n\n\n\n\nWe're not alone here...
-40: \n\n\n\n\n\n\n\n\nPlay with me Werner.
-41: \n\n\n\n\n\n\n\n\n\nThat was delicious.
-42: \n\n\n\n\n\n\n\n\nPlease, come to where I slumber
-43: \n\n\n\n\n\n\n\n\n\nHa! I am not such an old man after all.
-44: \n\n\n\n\n\n\n\n\nYou are romantic you
-45: \n\n\n\n\n\n\n\n\nNoooo!
-46: \n\n\n\n\n\n\n\n\nDon't let me hold you up
+5: Miss Croft!
+6: Von Croy.
+7: I need you to get something for me.
+8: Go on.
+9: The Iris.
+10: No chance old man.
+11: Lara, please...
+12: Watch your back old man. \nI warn you, I'll pull no punches.
+13: If you want the trinket, \ndo what pleases me the most.
+14: Find some body parts and offer them to me.
+15: Heeelp!
+16: Jonah??!??!
+17: HEEEEELLPPPPP!!!
+18: OOOUUUGGH!
+19: Unification completed.
+20: I'm coming to get you!
+21: Werner! It's me! Henshingley!
+22: Please, help us... \nOur daughter has trapped us!
+23: There must be a way to open these cages.
+24: Please, be quick.
+25: My cage is still locked.
+26: Look around, \nperhaps something has opened...
+27: Thank you, Werner!
+28: And one more thing...
+29: Heeeeeeeeeeere's RICHARD!
+30: Thank God you're here, Werner! \nI need your help.
+31: Since Lara visited that island... \nShe's been behaving differently...
+32: I believe the book is responsible.
+33: Perhaps a demonic presence \nwas trapped inside of it.
+34: We must find the book, Werner.
+35: With your help \nwe can exorcise the demon away!
+36: When you find it, \nplace it on the lectern.
+37: Praise the Lord, you've found it!
+38: Now we stand a chance!
+39: We're not alone here...
+40: Play with me Werner.
+41: That was delicious.
+42: Please, come to where I slumber.
+43: Ha! I am not such an old man after all.
+44: You are romantic you.
+45: Noooo!
+46: Don't let me hold you up.
 
