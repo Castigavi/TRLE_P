@@ -113,4 +113,4 @@ TriggerGroup= 1041, $2000,67,$112, $2000,203,$12C ;You are romantic
 ;TriggerGroup 1007 - Lara, please
 TriggerGroup= 1042, $2000,67,$112, $2000,203,$12D ;Nooo
 TriggerGroup= 1043, $2000,67,$112, $2000,203,$12E ;Don't let me hold you up
-Organizer= 1014, FO_ENABLED+FO_TICK_TIME, -1, 20,1040, 110,1000, 30,1041, 60,1000, 20,1007, 40,1000, 80,1042, 30,1000, 255,1043, 55,1000, 30,999
+Organizer= 1014, FO_TICK_TIME, -1, 20,1040, 110,1000, 30,1041, 60,1000, 20,1007, 40,1000, 80,1042, 30,1000, 255,1043, 55,1000, 30,999

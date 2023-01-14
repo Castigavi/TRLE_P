@@ -1,6 +1,0 @@
-TRNG - Detected Unrecoverable Crash
-Informations about current crash saved in following file:
-
- "C:\Github\TRLE_P\Engine\Last_Crash_2.txt"
-
-NOTE: you removed CRS (Crash Resume System). If you want avoid crashes you should enable newly CRS

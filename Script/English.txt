@@ -390,7 +390,7 @@ THE LAST STRING ENTRY
 19: \n\n\n\n\n\n\n\n\nUnification completed.
 20: \n\n\n\n\n\n\n\n\n\nI'm coming to get you!
 21: \n\n\n\n\n\n\n\n\n\nWerner! It's me! Henshingley!
-22: \n\n\n\n\n\n\n\nPlease, help us... \nour daughter has trapped us!
+22: \n\n\n\n\n\n\n\nPlease, help us... \nOur daughter has trapped us!
 23: \n\n\n\n\n\n\n\n\nThere must be a way to open these cages.
 24: \n\n\n\n\n\n\n\n\nPlease, be quick.
 25: \n\n\n\n\n\n\n\n\nMy cage is still locked.
@@ -399,7 +399,7 @@ THE LAST STRING ENTRY
 28: \n\n\n\n\n\n\n\n\n\nAnd one more thing...
 29: \n\n\n\n\n\n\n\n\nHeeeeeeeeeeere's RICHARD!
 30: \n\n\n\n\n\n\n\n\nThank God you're here, Werner! \nI need your help.
-31: \n\n\n\n\n\n\n\nSince Lara visited that island... \nshe's been behaving differently...
+31: \n\n\n\n\n\n\n\nSince Lara visited that island... \nShe's been behaving differently...
 32: \n\n\n\n\n\n\n\n\nI believe the book is responsible.
 33: \n\n\n\n\n\n\n\nPerhaps a demonic presence \nwas trapped inside of it.
 34: \n\n\n\n\n\n\n\n\nWe must find the book, Werner.
@@ -410,9 +410,9 @@ THE LAST STRING ENTRY
 39: \n\n\n\n\n\n\n\n\nWe're not alone here...
 40: \n\n\n\n\n\n\n\n\nPlay with me Werner.
 41: \n\n\n\n\n\n\n\n\n\nThat was delicious.
-42: \n\n\n\n\n\n\n\n\nPlease, come to where I slumber
+42: \n\n\n\n\n\n\n\n\nPlease, come to where I slumber.
 43: \n\n\n\n\n\n\n\n\n\nHa! I am not such an old man after all.
-44: \n\n\n\n\n\n\n\n\nYou are romantic you
+44: \n\n\n\n\n\n\n\n\nYou are romantic you.
 45: \n\n\n\n\n\n\n\n\nNoooo!
-46: \n\n\n\n\n\n\n\n\nDon't let me hold you up
+46: \n\n\n\n\n\n\n\n\nDon't let me hold you up.
 

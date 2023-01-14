@@ -60,7 +60,8 @@ ForceVolumetricFX=DISABLED
 LevelFarView=127
 Rain= RAIN_SINGLE_ROOMS
 LoadCamera=         100352,-781,982,100352,-585,2048,58
-UVRotate= -1
+UVRotate= 2
+Customize= CUST_WATERFALL_SPEED, 2
 Customize= CUST_SET_SECRET_NUMBER, 3
 WindowTitle= Tomb Raider - The Perils Ahead
 
