@@ -89,10 +89,11 @@ Organizer= 1010, FO_TICK_TIME, -1, 0,1028, 110,1029, 135,1030, 65,1031, 95,1032,
 
 ;Preist-2 (021-preist2)
 TriggerGroup= 1035, $2000,51,$0000, > ;Disable keyboard commands
-					$2000,369,$0001, > ;Set camera bars
-					$2000,203,$125 ;Praise the lord
+                    $2000,369,$0001, > ;Set camera bars
+                    $2000,203,$125 ;Praise the lord
 TriggerGroup= 1036, $2000,67,$112, $2000,203,$126 ;Now we stand a chance
-Organizer= 1011, FO_TICK_TIME, -1, 0,1035, 55,1036, 50,1000, 245,999
+TriggerGroup= 1044, $2000,67,$112, $2000,203,$12F ;BE QUIET
+Organizer= 1011, FO_TICK_TIME, -1, 0,1035, 55,1036, 50,1044, 40,1000, 205,999
 
 ;Play with me Werner (025-playwithme)
 TriggerGroup= 1037, $2000,203,$128
