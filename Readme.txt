@@ -30,6 +30,7 @@ Michiel - TR2 spiders sound samples
 TokyoSU - TR1+2 enemies plugin
 Lore - rain idea and texture, betatesting
 GeckoKid - Improved TR2 knights
+kubsy - Version 2 beta testing
 
 Assets were also taken from:
 Tomb Raider games
