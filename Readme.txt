@@ -45,10 +45,24 @@ If I forgot to mention anyone, please let me know and I will update threads/leve
 - Werner can use shelves, drawers and cabinets, just like in Tomb Raider Chronicles.
 
 ######################################################################
-#KNOWN ISSUES:
+#VERSION 2.0 CHANGELOG:
 ######################################################################
 
-- Sometimes rain on windows moves down rather than up. It's not a bug, it's a feature. If it annoys you though, just reload the game.
+- Added new and improved ending sequence
+- Added subtitles (done by Loreraider)
+- Fixed TEETH_SPIKES collision and appearance
+- Fixed switch button SFX
+- Fixed missing spider near the end
+- Fixed missing timed run in the library
+- Fixed rain drops on windows
+- Modified pool puzzle
+- Fixed "oily/rainbow" lighting
+- Added a new patch for better HD resolution support
+- Restored crawlspace pickup and crowlspace roll animations
+
+######################################################################
+#KNOWN ISSUES:
+######################################################################
 
 - Sometimes the CLOCK sound gets corrupted when BATS are active. This goes away once the bats disappear.
 
