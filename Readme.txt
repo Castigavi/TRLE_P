@@ -79,4 +79,4 @@ https://titak.tombraiderhub.com/trng-plugins/vcredist_x86.exe
 https://titak.tombraiderhub.com/trng-plugins/vcredist_x64.exe
 
 Question: How can I get high resolution?
-Answer: Try using LegacyD3DResolutionHack.Link: https://github.com/UCyborg/LegacyD3DResolutionHack
+Answer: The updated version should already support HD resolutions. If the game still crashes though, try using LegacyD3DResolutionHack.Link: https://github.com/UCyborg/LegacyD3DResolutionHack

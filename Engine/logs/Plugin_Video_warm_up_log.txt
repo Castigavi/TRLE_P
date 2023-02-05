@@ -1,6 +1,0 @@
-Attaching Library...
-The library has been successfully attached!
-Begin calling CB_INIT_PROGRAM callback for 'Plugin_Video' plugin
-	Completed callback: ok
-Begin calling CB_INIT_GAME callback for 'Plugin_Video' plugin
-	Completed callback: ok
