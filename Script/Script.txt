@@ -35,6 +35,7 @@ Plugin= 1, Plugin_TokyoSU, IGNORE
 Plugin= 2, Plugin_FLEP, IGNORE
 Plugin= 3, Plugin_ObjectHelper, IGNORE
 Plugin= 4, Plugin_AODfanChocolateFanChronicles, IGNORE
+Plugin= 5, Plugin_Video, IGNORE
 
 ;--------------------------------------
 ; Title
